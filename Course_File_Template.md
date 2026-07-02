@@ -45,19 +45,6 @@
 
 ---
 
-## 3. 🔵 Dual-level scope of each unit (KEYSTONE)
-
-> This is the single most important table in the file. Before designing any assessment, declare — for every unit — what the **awareness level** (the floor) and the **advanced level** (the ceiling) actually mean. Everything downstream (questions, rubrics, CGPA outcomes) derives from this. Apply it **consistently** so that 8+ CGPA carries the same meaning across all courses.
-
-| Unit | Awareness level — every student must reach (the floor) | Advanced level — required to exceed 8 CGPA (the ceiling) |
-|---|---|---|
-| 1 | ‹recall, define, apply a standard procedure to a familiar problem› | ‹analyze, derive, optimize, or transfer to an unfamiliar/real-world problem› |
-| 2 | ‹…› | ‹…› |
-| 3 | ‹…› | ‹…› |
-| 4 | ‹…› | ‹…› |
-
----
-
 ## 4. Course objectives 🟢
 
 - ‹…›
@@ -75,8 +62,6 @@
 | CO4 | ‹…› | ‹…› | ‹…› | ‹…› |
 | CO5 | ‹…› | ‹…› | ‹…› | ‹…› |
 | CO6 | ‹…› | ‹Create› | ‹…› | ‹…› |
-
-> 🔵 **New column — CO level.** Tag each CO as (Remember /Understand / Apply /Analyse / Evaluate / create). The design must guarantee that the floor (placement-readiness) is fully covered by Awareness, and that at least the highest COs are Advanced so the course has genuine ceiling.
 
 ---
 

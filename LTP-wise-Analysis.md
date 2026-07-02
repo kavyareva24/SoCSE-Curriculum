@@ -79,7 +79,7 @@ Progress: todo list created and analysis started.
 **Quick Implementation Steps**
 - If converting a 3-0-0 course to 1-1-1 pilot for DSA/DBMS/OOP, propose:
   - Reduce lecture to 1 hour, add 1-hour tutorial focused on worked problems, retain 1-hour lab for implementation.
-  - Update course template (Course_File_Template_DualLevel.md) §11 session plan to show weekly lecture/tutorial/lab triplet and mark floor/ceiling entries.
+  - Update course template (Course_File_Template.md) §11 session plan to show weekly lecture/tutorial/lab triplet.
   - Align assessment weights and add portfolio rubric and badge criteria.
 
 ## **DSA Example**

@@ -31,7 +31,7 @@ The repo is layered: **strategy** sets direction, **guidelines + template** turn
                                         │ derived into
                 ┌───────────────────────▼─────────────────────┐
    RULES ─────► │ Course_Designer_Guidelines_2026.md          │  design rules by category / L-T-P
-                │ Course_File_Template_DualLevel.md           │  the document faculty fill (§0–§22)
+                │ Course_File_Template.md                     │  the document faculty fill (§0–§22)
                 └───────────────────────┬─────────────────────┘
                                         │ operated by
                 ┌───────────────────────▼─────────────────────┐
@@ -106,7 +106,7 @@ your fork (origin)            upstream (kavyareva24)
    git checkout -b course-os-sem5          # new course file
    git checkout -b guidelines-currency-fix # edit to a shared doc
    ```
-3. **Make the change.** For a new course, use the [workflow](Course_Design_Workflow.md) and fill [`Course_File_Template_DualLevel.md`](Course_File_Template_DualLevel.md). Follow the conventions in §6.
+3. **Make the change.** For a new course, use the [workflow](Course_Design_Workflow.md) and fill [`Course_File_Template.md`](Course_File_Template.md). Follow the conventions in §6.
 4. **Self-check.** For a course file, run it through the [checklist](Course_Design_Checklist.md) (the `reva-course-reviewer` skill automates this) — aim for **READY** before opening the PR.
 5. **Commit.** Use a clear imperative subject; pass multi-line messages from a file, **not** a shell here-string:
    ```bash

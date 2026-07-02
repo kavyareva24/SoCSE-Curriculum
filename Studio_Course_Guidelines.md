@@ -86,7 +86,7 @@ Operational notes
 - Timekeeping: require checkpoint artefacts to be timestamped and pushed before the session to count for that meeting.
 
 Mapping to Course File template
-- In `Course_File_Template_DualLevel.md` §11: list studio sprints as session blocks, tag each sprint with Merrill phase and Awareness/Advanced.
+- In `Course_File_Template.md` §11: list studio sprints as session blocks, tag each sprint with Merrill phase.
 - In §14: include portfolio and sprint projects as instruments; explicitly mark which deliverables contribute to Advanced marks and how they map to CGPA calibration (§14.1).
 
 Examples (quick)

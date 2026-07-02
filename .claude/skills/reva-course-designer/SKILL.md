@@ -21,7 +21,7 @@ Guide a faculty member from a blank start to a **completed `Course File — Dual
 
 ## Canonical references (read these from the repository root before designing)
 
-- `Course_File_Template_DualLevel.md` — the deliverable to fill (sections §0–§22).
+- `Course_File_Template.md` — the deliverable to fill (sections §0–§22).
 - `Course_Designer_Guidelines_2026.md` — design rules by course category and L-T-P.
 - `REVA_BTech_Curriculum_Strategy.md` — the *why* behind the dual-level design.
 - `Docs/<PROGRAM>-v1.md` — the **official 2026 scheme of instruction for each program** (authoritative source for course code, category, L-T-P-C, contact hours, CIE/SEE). Open the one matching the student's program:
@@ -57,22 +57,22 @@ Both paths converge on the same Course File and the same review gate. Pick by ho
 
 ### Path A — Outcomes-first (conventional OBE)
 1. Faculty writes 5–6 **COs** as measurable action statements (no "understand/know"). If they attach an old course doc, lift and modernise the COs from it.
-2. **Tag each CO** with a Bloom taxonomy level (Remember / Understand / Apply / Analyse / Evaluate / Create) — propose from Bloom verbs + the map level; have them confirm. Remember–Apply = awareness floor; Analyse–Create = advanced ceiling. At least the highest COs must be at Analyse / Evaluate / Create or the course has no ceiling.
+2. **Tag each CO** with a Bloom taxonomy level (Remember / Understand / Apply / Analyse / Evaluate / Create) — propose from Bloom verbs + the map level; have them confirm. The assessment design will map these levels to the awareness floor (Remember–Apply) and advanced ceiling (Analyse–Create) splits.
 3. Derive **units → §3 dual-level scope per unit → one activity per session (§11) → §14 dual-level assessment + §14.1 CGPA calibration → CO–PO/PSO mappings.**
 
 ### Path B — Activities-first
 The **set of activities defines the course.** An activity is a quiz, program, small project, or assignment the **student submits** — typically **one per session block** (an hour, two hours, or a week, per L-T-P). Each activity needs a **description** (enough to communicate intent) and a **session count**; optionally its unit and floor/ceiling target.
 1. Faculty lists activities directly in the **§11 session table** (one row/block per activity).
-2. **Reverse-engineer** COs (tagged), units, §3 scope, Merrill phases, §14 assessment + calibration, and all mappings from the activity set.
+2. **Reverse-engineer** COs (with standard Bloom levels), units, §3 scope, Merrill phases, §14 assessment + calibration, and all mappings from the activity set.
 3. **Surface the inferred COs and unit scope and have the faculty confirm them** — this is Path B's critical checkpoint. Adjust activities/tags until the inferred OBE structure matches intent.
 
 ## Step 3 — Generate the Course File (interactive or one-shot)
 
-Fill every section of `Course_File_Template_DualLevel.md`, replacing all `‹…›` placeholders. Run **interactively** (ask about tooling, vertical, project briefs, weightings) for HC-integrated, SC/PEC, workshop, project, and internship courses where domain judgement matters; **one-shot** is acceptable for straightforward theory courses.
+Fill every section of `Course_File_Template.md`, replacing all `‹…›` placeholders. Run **interactively** (ask about tooling, vertical, project briefs, weightings) for HC-integrated, SC/PEC, workshop, project, and internship courses where domain judgement matters; **one-shot** is acceptable for straightforward theory courses.
 
 Non-negotiables to honour while generating:
 - **§3 dual-level scope** filled for every unit, Bloom-anchored.
-- **§11**: every session has unit/topic, CO, level (A/Adv), a **Merrill phase**, and an **activity**; all five Merrill phases appear per unit; **≥1 Advanced activity is actually taught per unit** (not only assessed).
+- **§11**: every session has unit/topic, CO, a **Merrill phase**, and an **activity**; all five Merrill phases appear per unit.
 - **§14**: every instrument must split marks into awareness/advanced as defined for this course; complete and **confirm the §14.1 calibration** (awareness-only < 8 CGPA) and document the rationale.
 - **§8** differentiation tied explicitly to floor (remediation) and ceiling (enrichment); intake-aware (no unstated prior-exposure; bridge ramp where the gap is real).
 - **Currency**: perishable tooling lives in activities/labs, not frozen into theory; note a review cycle.

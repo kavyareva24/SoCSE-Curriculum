@@ -5,7 +5,7 @@
 > **What it does.** It defines *how a faculty member produces a completed Course File* using Generative AI (Claude), starting from whichever artefact they find most natural to write — **Course Outcomes** (the conventional OBE order) or **Activities** (the things students actually do). Both paths converge on the same deliverable: a fully filled **Course File — Dual-Level** document, reviewed by the faculty and then by Claude.
 >
 > **Companion documents.**
-> - [Course File Template — Dual-Level](Course_File_Template_DualLevel.md) — the deliverable to be filled.
+> - [Course File Template](Course_File_Template.md) — the deliverable to be filled.
 > - [Course Designer Guidelines — 2026](Course_Designer_Guidelines_2026.md) — the design rules, by course category and L-T-P.
 > - [B.Tech Curriculum Strategy](REVA_BTech_Curriculum_Strategy.md) — the *why* behind the dual-level design.
 > - [Course Design Checklist](Course_Design_Checklist.md) — the gate every finished course must pass.
@@ -49,12 +49,13 @@ Both paths produce the **same** Course File and both pass through the **same** r
 In the chat, write 5–6 COs in the form *"By the end of the course the student will be able to ‹verb› ‹object› ‹condition›."* Use action verbs, not "understand/know". If you already have an existing/older course document, attach it — Claude will lift and modernise the COs from it.
 
 **Step A2 — Tag each CO with its level.**
-For every CO, say whether it is **Awareness** (floor — every student must clear), **Advanced** (ceiling — needed to exceed 8 CGPA), or **Both**. If you are unsure, ask Claude to propose tags from the Bloom verbs and the course's level in the map; then confirm. (At least the highest COs must be Advanced, or the course has no ceiling — Strategy §5.4, Template §5.)
+**Step A2 — Tag each CO with its Bloom Taxonomy level.**
+For every CO, identify its Bloom level (Remember / Understand / Apply / Analyse / Evaluate / Create) as per standard OBE practices. The assessment design will map these levels to the awareness floor (Remember–Apply) and advanced ceiling (Analyse–Create) splits.
 
 **Step A3 — Ask Claude to generate the course.**
 Paste a prompt like:
 
-> "Using `Course_File_Template_DualLevel.md`, `Course_Designer_Guidelines_2026.md`, and the curriculum strategy, generate a complete Course File for **‹course code – title›** (category ‹…›, L-T-P ‹…›, level ‹…›). My COs and their level tags are below. Derive the units and the §3 dual-level scope per unit, then design **one activity per session** for the §11 lesson plan, then the §14 dual-level assessment with the CGPA calibration check. Ask me whenever a choice needs my judgement."
+> "Using `Course_File_Template.md`, `Course_Designer_Guidelines_2026.md`, and the curriculum strategy, generate a complete Course File for **‹course code – title›** (category ‹…›, L-T-P ‹…›, level ‹…›). My COs and their Bloom levels are below. Derive the units and the §3 dual-level scope per unit, then design **one activity per session** for the §11 lesson plan, then the §14 dual-level assessment with the CGPA calibration check. Ask me whenever a choice needs my judgement."
 
 **Step A4 — Work interactively (or accept a one-shot draft).**
 Claude can run this **interactively** (asking you about tooling, vertical, project briefs, weightings) or produce a **one-shot** full draft you then refine. Interactive is recommended for HC integrated, SC/PEC, project and workshop courses, where your domain judgement matters most.
@@ -77,16 +78,16 @@ This path treats the **set of activities as the definition of the course**. You 
 **Step B1 — List the activities.**
 The simplest place to do this is directly in the **§11 main session-plan table** of the template — one row (or block of rows) per activity, with its description and session count. You are filling §11 *first*, by hand, to the extent that it communicates intent. Example rows:
 
-| Sessions | Activity (what the student does/submits) | Unit/topic | Floor / Ceiling |
-|---|---|---|---|
-| 1 | Quiz: asymptotic-notation drill (auto-graded) | Unit 1 | Floor |
-| 2 | Program: implement & instrument merge sort, plot growth | Unit 2 | Floor |
-| 3 | Mini-task: given a novel problem, choose a design technique, justify the trade-off, implement | Unit 3–4 | Ceiling |
+| Sessions | Activity (what the student does/submits) | Unit/topic |
+|---|---|---|
+| 1 | Quiz: asymptotic-notation drill (auto-graded) | Unit 1 |
+| 2 | Program: implement & instrument merge sort, plot growth | Unit 2 |
+| 3 | Mini-task: given a novel problem, choose a design technique, justify the trade-off, implement | Unit 3–4 |
 
 **Step B2 — Hand the activity set to Claude.**
 Paste a prompt like:
 
-> "Here is the complete set of activities for **‹course code – title›** (category ‹…›, L-T-P ‹…›, level ‹…›), one per session block, each with a description and session count. Treat these activities as the definition of the course. Using the dual-level template, guidelines and strategy, **reverse-engineer** the Course Outcomes (tagged Awareness/Advanced/Both), the units and their §3 dual-level scope, the Merrill phase for each session, the §14 dual-level assessment with the CGPA calibration check, and all CO–PO/PSO mappings. Where an activity is ambiguous, ask me what I intended."
+> "Here is the complete set of activities for **‹course code – title›** (category ‹…›, L-T-P ‹…›, level ‹…›), one per session block, each with a description and session count. Treat these activities as the definition of the course. Using the dual-level template, guidelines and strategy, **reverse-engineer** the Course Outcomes (with standard Bloom levels), the units and their §3 dual-level scope, the Merrill phase for each session, the §14 dual-level assessment with the CGPA calibration check, and all CO–PO/PSO mappings. Where an activity is ambiguous, ask me what I intended."
 
 **Step B3 — Confirm the reverse-engineered OBE structure.**
 Claude will surface the COs and unit scope it inferred from your activities. **This is the critical confirmation point of Path B** — check that the outcomes it inferred are the ones you actually intended, and that the floor/ceiling split is right. Adjust activities or tags until the inferred structure matches your intent.
@@ -104,7 +105,7 @@ Once Claude has produced the full Course File, **the faculty reviews it first** 
 
 - Do the COs (whether you wrote them or Claude inferred them) say what you mean?
 - Is the **awareness floor** genuinely reachable by the weakest admitted student (no unstated prior-exposure assumption — Strategy §3, Guidelines §1.8)?
-- Is the **advanced ceiling** real and actually *taught* in §11, not only assessed (Template §22.1)?
+- Is the **advanced ceiling** real and reflected in the §3 unit scope and §14 assessment split (Template §14)?
 - Are the activities the ones you would actually run, in the time you actually have (honest contact-hour budgeting — Guidelines §1.6)?
 - Is the assessment split something you can defend at a Board of Studies?
 

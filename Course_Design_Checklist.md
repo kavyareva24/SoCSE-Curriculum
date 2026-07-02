@@ -1,6 +1,6 @@
 # Course Design Checklist
 
-> **Purpose.** The single gate every completed Course File must pass before submission to the Board of Studies / HoD. It merges three sources into one verifiable list: **template completeness** ([Course File Template — Dual-Level](Course_File_Template_DualLevel.md)), **design rules** ([Course Designer Guidelines — 2026](Course_Designer_Guidelines_2026.md)), and **strategy alignment** ([B.Tech Curriculum Strategy](REVA_BTech_Curriculum_Strategy.md) + [Visual Curriculum Map](Curriculum_Visual_Map.md)).
+> **Purpose.** The single gate every completed Course File must pass before submission to the Board of Studies / HoD. It merges three sources into one verifiable list: **template completeness** ([Course File Template](Course_File_Template.md)), **design rules** ([Course Designer Guidelines — 2026](Course_Designer_Guidelines_2026.md)), and **strategy alignment** ([B.Tech Curriculum Strategy](REVA_BTech_Curriculum_Strategy.md) + [Visual Curriculum Map](Curriculum_Visual_Map.md)).
 >
 > **How to use.** After the faculty review and the Claude review (see [Course Design Workflow §4–§5](Course_Design_Workflow.md)), check every item. Each has a stable **ID** so reviews and verification reports can reference it. Mark each **Pass / Fail / N-A / Waiver**. A course is submission-ready only when every item is **Pass**, **N-A**, or carries an explicit, justified **Waiver**.
 >
@@ -26,7 +26,7 @@
 | B1 | **COs written first** and stated as measurable, action-verb statements (not "understand/know"); 5–6 COs typical. | 🔴 Blocker | Guidelines §1.1 |
 | B2 | **Every CO tagged with a Bloom taxonomy level** (Remember / Understand / Apply / Analyse / Evaluate / Create) in the §5 level column. | 🔴 Blocker | Template §5; Strategy §5.4 |
 | B3 | **At least the highest CO(s) are at Analyse / Evaluate / Create level** — the course has a genuine ceiling. | 🔴 Blocker | Template §5 |
-| B4 | The **awareness floor is fully covered** by Remember / Understand / Apply COs and maps to CSCore / entrance-test / placement competencies (where applicable). | 🔴 Blocker | Guidelines §1.3, §4.2 |
+| B4 | Course outcomes map to CSCore / entrance-test / placement competencies (where applicable) to protect student employability. | 🔴 Blocker | Guidelines §1.3, §4.2 |
 | B5 | Each CO mapped to **PO/PSO** with correlation strength (1/2/3). | 🟠 Major | Template §5, §19 |
 | B6 | COs are **constructively aligned** — every CO is taught (§11) and assessed (§14); no orphan CO, no assessment without a CO. | 🟠 Major | OBE best practice |
 
@@ -43,10 +43,10 @@
 
 | ID | Check | Severity | Source |
 |---|---|---|---|
-| D1 | **§11 merged session plan filled** — every session has unit/topic, planned date, % completion, CO, and level (A/Adv) tag. | 🔴 Blocker | Template §11 |
-| D2 | **Each session carries an activity** with enough description to communicate intent (what the student does/submits); for Activities-first courses, the activity set is the spine. **Assignments (§9) carry a level tag** (Awareness / Advanced). | 🔴 Blocker | Template §11, §9; Workflow §3 |
+| D1 | **§11 merged session plan filled** — every session has unit/topic, planned date, % completion, and CO tag. | 🔴 Blocker | Template §11 |
+| D2 | **Each session carries an activity** with enough description to communicate intent (what the student does/submits); for Activities-first courses, the activity set is the spine. | 🔴 Blocker | Template §11; Workflow §3 |
 | D3 | **Every session tagged with a Merrill phase**; across each unit all five phases (Problem-centred, Activation, Demonstration, Application, Integration) appear at least once. | 🟠 Major | Template §22, §22.1 |
-| D4 | **≥1 Advanced-level activity per unit is actually taught** (Application/Integration), not only assessed — the §22.1 "ceiling taught" check is Yes. | 🔴 Blocker | Template §11, §22.1 |
+| D4 | [Removed — Level handling simplified to assessment only] | 🔴 Blocker | — |
 | D5 | Activity **session counts are realistic** against true contact hours implied by L-T-P (honest budgeting, no idealized self-study assumption). | 🟠 Major | Guidelines §1.6 |
 | D6 | **Continuous, frequent, low-stakes** assessment favoured over a single high-stakes exam. | 🟠 Major | Guidelines §1.5 |
 | D7 | For high-P courses, the **level distinction lives in an activity rubric** (works = floor; efficient/scalable/well-reasoned = ceiling), not a question paper. | 🟠 Major | Guidelines §6, §4.3–§4.4 |
@@ -84,7 +84,7 @@
 | ID | Check | Severity | Source |
 |---|---|---|---|
 | H1 | **CO–PO/PSO matrix (§19)** filled with strength values and consistent with the §5 per-CO mapping. | 🟠 Major | Template §19 |
-| H2 | **CO-attainment table (§18)** set up with target and reports **advanced COs separately**. | 🟠 Major | Template §18 |
+| H2 | **CO-attainment table (§18) set up with target.** | 🟠 Major | Template §18 |
 | H3 | **Learner-support tracking (§16)** split into remediation + enrichment with capture fields. | 🟡 Minor | Template §16 |
 | H4 | **Overall attainment** model (Direct 80% + Indirect 20%) and minimum PO-attainment level stated. | 🟡 Minor | Template §19 |
 
