@@ -158,14 +158,95 @@ Prerequisite courses: Digital Logic Design / Basic Electronics and Data Structur
 
 The course uses a sequence of short, low-stakes activities so that CIE is continuous rather than concentrated in a single exam. The activity set below is adapted from the reference file and is intended to be completed in class or as a short post-class submission.
 
-| Activity | Timing | Output / evidence | Level | COs |
-|---|---|---|---|---|
-| Quiz 1 — Computer components and functional units | Week 1 | 10-item quiz on CPU, ALU, control unit, registers, and memory types | Awareness | CO1 |
-| Quiz 2 — Fetch-decode-execute cycle | Week 2 | 10-item quiz on instruction-cycle phases and PC/IR behavior | Awareness | CO1 |
-| Quiz 3 — Memory organization and storage hierarchy | Week 5 | 10-item quiz on memory hierarchy, cache basics, and storage trade-offs | Awareness | CO3 |
-| Quiz 4 — Instruction formats and addressing modes | Week 7 | 10-item quiz on formats, addressing modes, and simple datapath interpretation | Both | CO2, CO4 |
-| Quiz 5 — Pipelining and hazards | Week 13 | 10-item quiz on pipeline stages, hazards, and performance terms | Advanced | CO5 |
-| Mini-project — datapath / cache / pipeline design note | Weeks 14–15 | Short design memo with justification and a worked example | Advanced | CO4, CO5, CO6 |
+| Activity | Timing | Format | Duration | Marks | Level | COs |
+|---|---|---|---|---|---|---|
+| Quiz 1 — Computer components and functional units | Week 1 | 10 MCQ/short-answer questions | 10 minutes | 10 × 1 mark | Awareness | CO1 |
+| Quiz 2 — Fetch-decode-execute cycle | Week 2 | 10 concept-based questions | 10 minutes | 10 × 1 mark | Awareness | CO1 |
+| Quiz 3 — Memory organization and storage hierarchy | Week 5 | 10 short questions | 10 minutes | 10 × 1 mark | Awareness | CO3 |
+| Quiz 4 — Instruction formats and addressing modes | Week 7 | 10 application-based questions | 10 minutes | 10 × 1 mark | Both | CO2, CO4 |
+| Quiz 5 — Pipelining and hazards | Week 13 | 10 short analytical questions | 10 minutes | 10 × 1 mark | Advanced | CO5 |
+| Mini-project 1 — Datapath and instruction tracing | Week 8 | Short design note + diagram | 1 week | 5 marks | Both | CO2, CO4 |
+| Mini-project 2 — Cache / pipeline design justification | Weeks 14–15 | Report + viva | 2 weeks | 5 marks | Advanced | CO3, CO5, CO6 |
+
+---
+
+## 10.2 🔵 Quiz design (10 questions × 1 mark; 10 minutes each)
+
+Each quiz is a fast, low-stakes formative check and is mapped to one or more COs. The questions are designed to test recall, basic understanding, or simple application, while the later quizzes also include transfer-based reasoning.
+
+### Quiz 1 — Computer components and functional units (CO1)
+- Q1. The CPU is responsible for _________.
+- Q2. The ALU performs _________ and _________ operations.
+- Q3. The control unit generates _________ signals.
+- Q4. The Program Counter stores the address of the next _________.
+- Q5. Registers are used to store _________ results temporarily.
+- Q6. Cache memory is placed between the CPU and _________.
+- Q7. The main memory is also called _________.
+- Q8. The input/output unit is used to connect the computer to _________.
+- Q9. In a von Neumann architecture, instructions and data are stored in the same _________.
+- Q10. A computer system is made of processing, memory, and _________ units.
+
+### Quiz 2 — Fetch-decode-execute cycle (CO1)
+- Q1. The first step of the instruction cycle is _________.
+- Q2. During fetch, the CPU retrieves an instruction from _________.
+- Q3. The instruction is placed in the _________ register.
+- Q4. Decode means interpreting the instruction’s _________ and operands.
+- Q5. Execute means performing the required arithmetic or _________ operation.
+- Q6. The Program Counter is updated after each _________.
+- Q7. The sequence fetch-decode-execute repeats until the CPU reaches a _________ condition.
+- Q8. The CPU uses control signals to direct the _________ path.
+- Q9. The instruction register holds the current _________ being executed.
+- Q10. The fetch-decode-execute cycle is also called the instruction _________.
+
+### Quiz 3 — Memory organization and storage hierarchy (CO3)
+- Q1. Cache is faster than _________ memory.
+- Q2. The memory hierarchy is arranged from fastest to _________ capacity.
+- Q3. Registers are the _________ and fastest storage in the CPU vicinity.
+- Q4. Main memory is typically _________ than cache and slower than registers.
+- Q5. Virtual memory extends the apparent size of _________.
+- Q6. A cache hit means the required data is found in the _________.
+- Q7. A cache miss means data must be fetched from a lower _________.
+- Q8. The purpose of cache is to reduce average memory _________ time.
+- Q9. ROM is mainly used for storing _________ instructions.
+- Q10. The memory hierarchy supports the principle of _________ locality.
+
+### Quiz 4 — Instruction formats and addressing modes (CO2, CO4)
+- Q1. An instruction format describes the arrangement of opcode and _________.
+- Q2. Immediate addressing uses the operand value embedded in the _________.
+- Q3. Direct addressing uses the address stored in the instruction to access _________.
+- Q4. Indirect addressing uses a memory location that contains another _________.
+- Q5. Register addressing uses data already present in a _________.
+- Q6. The ALU receives operands from registers or _________.
+- Q7. A datapath is the path used for data movement between functional _________.
+- Q8. A control signal enables a specific operation in the _________ unit.
+- Q9. The choice of addressing mode affects the speed and _________ of the instruction.
+- Q10. A simple datapath can be traced by following the flow of data through the _________ and ALU.
+
+### Quiz 5 — Pipelining and hazards (CO5)
+- Q1. Pipelining improves processor performance by overlapping instruction _________.
+- Q2. A hazard occurs when instructions compete for the same _________.
+- Q3. A data hazard occurs when one instruction needs data from a previous _________.
+- Q4. A control hazard is caused by a branch or _________ instruction.
+- Q5. Structural hazard occurs when hardware resources are not available for two _________.
+- Q6. Throughput measures how many instructions are completed per unit of _________.
+- Q7. Latency is the time taken to complete one instruction from start to _________.
+- Q8. Forwarding is used to reduce _________ hazards.
+- Q9. Pipeline stages are usually arranged as fetch, decode, execute, and _________.
+- Q10. A well-designed pipeline reduces idle time and improves overall _________.
+
+---
+
+## 10.3 🔵 Mini-project design brief
+
+### Mini-project 1 — Datapath and instruction tracing (CO2, CO4)
+- Task: Students trace a simple instruction sequence and draw a basic datapath diagram showing how operands move through registers, ALU, and control signals.
+- Deliverables: one-page note, hand-drawn or digital block diagram, and a 2-minute explanation.
+- Assessment focus: correctness of trace, clarity of datapath flow, and ability to explain control decisions.
+
+### Mini-project 2 — Cache / pipeline design justification (CO3, CO5, CO6)
+- Task: Students analyze a small cache or pipeline scenario and justify a design choice such as cache size, mapping policy, or hazard-mitigation strategy.
+- Deliverables: short report, worked example, and short viva presentation.
+- Assessment focus: reasoning quality, trade-off analysis, and ability to justify design decisions for a novel application.
 
 ---
 
