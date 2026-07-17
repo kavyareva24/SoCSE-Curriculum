@@ -10,13 +10,13 @@ cie: 50
 see: 50
 total_marks: 100
 aicte_category: PCC
-level: "A+Adv"
+level: "Single-level"
 status: draft
 ---
 
 # Course File — Data Base Management Systems
 
-> **Status: DRAFT** — This file applies the dual-level 1-1-1 design for DBMS. Complete faculty details, session dates, and local PO/PSO mapping before submission.
+> **Status: DRAFT** — This file is prepared as a single-level 1-1-1 course design for DBMS. The course uses one common learning path with support and enrichment built into instruction and assessment.
 
 ---
 
@@ -45,7 +45,7 @@ status: draft
 
 ## 1. Course description 🟢
 
-This course introduces the fundamentals of database systems, focusing on relational modeling, SQL, normalization, query optimization, and transaction processing. Students learn to design robust schemas, write correct and efficient queries, and manage data integrity through an integrated theory–lab curriculum.
+This course introduces students to database systems, data modelling, SQL programming, normalization, and database application development. It combines conceptual understanding with practical implementation through theory and timed practice & test sessions so that students can design, build, query, and evaluate database solutions for real-world applications.
 
 ---
 
@@ -53,80 +53,82 @@ This course introduces the fundamentals of database systems, focusing on relatio
 
 | Unit | Syllabus | Weightage |
 |---|---|---|
-| 1 | Database systems overview, relational model, ER modeling, and relational algebra. | 25 |
-| 2 | SQL DDL/DML, integrity constraints, views, joins, and basic query formulation. | 25 |
-| 3 | Functional dependency, normalization, indexing, query execution, and optimization. | 25 |
-| 4 | Transactions, concurrency control, recovery, security, and physical database design. | 25 |
+| 1 | Introduction to databases; characteristics of the database approach; data models; schemas and instances; database languages and interfaces; high-level conceptual data models; ER model: entity types, attributes, keys, relationship types, weak entity types, and ER diagrams; practical: installation and configuration of MySQL, creating databases and tables, working with data types and constraints, defining primary keys and foreign keys, and designing a simple database schema. | 25 |
+| 2 | ER/EER modelling concepts; ER diagrams; mapping cardinalities; weak entity sets; specialization and generalization; relational database design from ER/EER models; introduction to SQL: data types, DDL, and DML; practical: CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, constraints, data loading and validation, basic SELECT queries, and mini database creation from ER design. | 25 |
+| 3 | Advanced SQL: retrieving data with SELECT, restricting and sorting, single-row functions, joins, nested subqueries, views, PL/SQL basics, functions, and stored procedures; practical: SELECT with filtering and sorting, aggregate functions and GROUP BY, inner/outer/self/cross joins, nested and correlated subqueries, views, PL/SQL blocks, functions, and stored procedures. | 25 |
+| 4 | Database design theory and normalization: informal design guidelines, functional dependencies, and normal forms (1NF, 2NF, 3NF, BCNF); practical: identification of functional dependencies, candidate key computation, conversion to 1NF, 2NF, 3NF, BCNF decomposition, and a comprehensive database design case study. | 25 |
 
 ---
 
-## 3. 🔵 Dual-level scope of each unit (KEYSTONE)
+## 3. Course scope by unit
 
-| Unit | Awareness level — every student must reach (floor) | Advanced level — required to exceed 8 CGPA (ceiling) |
-|---|---|---|
-| 1 | Define database terminology, draw ER diagrams, and translate small problem statements into relational schemas. | Analyze schema choices and extend ER models to cover non-trivial constraints and business rules. |
-| 2 | Write and run correct SQL queries for selection, projection, join, aggregation, and simple updates. | Debug complex SQL queries and construct multi-step reports using nested queries, set operations, and views. |
-| 3 | Normalize schemas to 3NF and select appropriate indexing strategies for simple retrieval patterns. | Evaluate normalization trade-offs, design composite indexes, and reason about query plan behavior. |
-| 4 | Explain transaction atomicity, consistency, isolation, and durability, and identify common concurrency and recovery issues. | Propose concurrency control and recovery strategies for a given workload, and justify security controls for a sample application. |
+Each unit is designed to build the common competence expected of all students through theory, practical exercises, and practice-based application. The course uses one common learning path for the full class, with support and enrichment provided through scaffolding and assessment design.
+
+| Unit | Scope for all students |
+|---|---|
+| 1 | Explain database concepts and architectures, model data using ER diagrams, and design a simple relational database schema from requirements. |
+| 2 | Translate ER/EER designs into relational schemas, create and manipulate tables using SQL, and apply constraints and data validation rules. |
+| 3 | Construct advanced SQL and PL/SQL solutions, query relational data efficiently, and build database applications using views, functions, and stored procedures. |
+| 4 | Apply normalization and design principles to create efficient and maintainable database solutions, and evaluate design trade-offs through case studies. |
 
 ---
 
 ## 4. Course objectives 🟢
 
-- Introduce relational database concepts and modeling techniques for structured data.
-- Enable students to express data requirements with SQL and verify query results.
-- Develop schema design skills that preserve data integrity and support maintainability.
-- Teach transaction management and concurrency concepts to ensure consistent database behavior.
-- Build practical competence through regular lab-based development and evaluation.
+- Understand database concepts, architectures, and conceptual data modelling.
+- Design databases using ER and EER models.
+- Develop SQL queries for data definition, manipulation, and retrieval.
+- Apply database design principles and normalization techniques.
+- Implement database applications using SQL and procedural extensions (PL/SQL).
 
 ---
 
 ## 5. Course outcomes (COs) and PO/PSO mapping 🟢
 
-| CO# | Course outcome | Bloom level 🔵 | Level (Awareness / Advanced / Both) 🔵 | POs | PSOs |
-|---|---|---|---|---|---|
-| CO1 | Describe database models, ER diagrams, and relational schemas for simple applications. | Understand | Awareness | PO1, PO2 | PSO1 |
-| CO2 | Construct and execute SQL queries to retrieve, modify, and report relational data. | Apply | Awareness | PO1, PO2, PO3 | PSO1 |
-| CO3 | Design normalized relational schemas and apply integrity constraints to preserve data correctness. | Apply | Both | PO2, PO3 | PSO1 |
-| CO4 | Analyze query patterns and choose indexing and optimization strategies for performance. | Analyze | Advanced | PO3, PO4 | PSO1 |
-| CO5 | Apply transaction, concurrency, and recovery principles to maintain database consistency. | Apply | Both | PO4, PO5 | PSO2 |
-| CO6 | Evaluate database design trade-offs and propose improvements for maintainability, performance, and security. | Evaluate | Advanced | PO4, PO5, PO9 | PSO2 |
+| CO# | Course outcome | Bloom level 🔵 | POs | PSOs |
+|---|---|---|---|---|
+| CO1 | Explain database concepts, architectures, and data models. | Understand | PO1, PO2, PO3, PO4, PO5, PO10 | PSO1, PSO2 |
+| CO2 | Design conceptual and logical database schemas using ER/EER models. | Apply | PO1, PO2, PO3, PO4, PO5 | PSO1, PSO2 |
+| CO3 | Construct SQL queries for database creation, manipulation, and retrieval. | Analyze | PO1, PO2, PO3, PO4, PO5 | PSO1, PSO2, PSO3 |
+| CO4 | Develop database applications using advanced SQL and PL/SQL constructs. | Create | PO1, PO2, PO3, PO4, PO5 | PSO1, PSO2 |
+| CO5 | Apply normalization techniques to design efficient relational databases. | Apply | PO1, PO2, PO3, PO4, PO5 | PSO1 |
+| CO6 | Develop and evaluate database solutions individually or in a team, and report results with analysis and interpretation. | Create | PO5, PO9, PO10 | PSO1, PSO2 |
 
 ---
 
 ## 6. Pedagogy 🟢
 
-This course uses an integrated theory–lab pedagogy. Each week combines a focused lecture, guided tutorial practice, and a hands-on lab exercise. Teaching includes direct instruction, worked examples, collaborative debugging, and problem-based learning with incremental implementation tasks.
+This course follows the 1-1-1 delivery model (Theory / Test / Evaluation). Teaching includes direct instruction, guided demonstrations, collaborative problem solving, and timed practice sessions. The 2-hour practice & test sessions reinforce conceptual understanding through database creation, query writing, normalization exercises, and small application development tasks; evaluation is test-based.
 
 ---
 
 ## 7. Textbooks, references, e-resources 🟢
 
 **Textbook(s):**
-- Elmasri, R., & Navathe, S. B. (2016). *Fundamentals of Database Systems*.
-- Korth, H. F., Silberschatz, A., & Sudarshan, S. (2019). *Database System Concepts*.
+- Abraham Silberschatz, Henry F. Korth, and S. Sudarshan. *Database System Concepts*, 6th ed., McGraw Hill, 2010.
+- Ramez Elmasri and Shamkant B. Navathe. *Fundamentals of Database Systems*, 5th ed., Pearson Education, 2007.
 
-**References:**
-- Ramakrishnan, R., & Gehrke, J. (2020). *Database Management Systems*.
-- Ullman, J. D. (2009). *A First Course in Database Systems*.
+**Reference books:**
+- C. J. Date. *Database Design and Relational Theory: Normal Forms and All that Jazz*, O'Reilly, 2012.
+- Raghu Ramakrishnan and Johannes Gehrke. *Database Management Systems*, 3rd ed., McGraw-Hill, 2003.
 
 **Web / e-books / NPTEL:**
-- SQLZoo, W3Schools SQL Tutorial, GeeksforGeeks SQL Guide, DB-Fiddle.
-- NPTEL Lectures on Database Management Systems.
+- SQLZoo
+- W3Schools SQL Tutorial
+- GeeksforGeeks SQL Guide
+- DB-Fiddle
+- NPTEL lectures on Database Management Systems
 
 ---
 
-## 8. 🔵 Differentiated instruction (mapped to the two levels)
+## 8. Support and scaffolding
 
-**Reaching the floor (awareness level) — for students at risk:**
-- Provide guided worksheets and step-by-step SQL labs for query construction.
-- Use pair programming and peer review in lab sessions to support weaker students.
-- Offer optional remediation clinics during tutorial hours focused on schema modeling and query debugging.
+All students engage with the full range of learning activities. Support is provided through scaffolding, practice opportunities, and flexible assessment pathways so that every student can build competence:
 
-**Reaching the ceiling (advanced level) — for students aiming above 8 CGPA:**
-- Assign stretch tasks on query optimization, indexing strategy comparison, and advanced view/materialized-view design.
-- Offer optional case studies on transaction design for realistic business applications.
-- Encourage advanced learners to critique schema designs and propose secure, maintainable alternatives.
+- **Scaffolded practice:** Guided worksheets and timed practice tasks for query construction; pair programming and peer review during the 2-hour problem/test slot.
+- **Remediation support:** Tutorial clinics focused on schema modelling, SQL debugging, and PL/SQL logic; re-attempts on formative assessments and practice tests.
+- **Enrichment support:** Additional exercises on query optimization, indexing strategy, and case-based database design for students who need further challenge.
+- **Assessment variation:** Formative quizzes with immediate feedback and rubric-based problem/test assignments for schema design and query optimization.
 
 ---
 
@@ -143,34 +145,63 @@ This course uses an integrated theory–lab pedagogy. Each week combines a focus
 
 **Prerequisite courses:** Data Structures and Algorithms, Computer Organization.
 
-**Pre-reading:** relational algebra basics, set theory review, and introductory programming constructs.
+**Pre-reading:** Relational algebra basics, set theory review, and introductory programming constructs.
 
 ---
 
-## 11. Lesson plan 🟢🔵
+## 10.1 1-1-1 Weekly activities & assessment (tabular)
 
-| S.No | Planned date | Exec. date | Unit / topic | Merrill phase 🔵 | Activity 🔵 | % compl. | Level (A/Adv) 🔵 | CO 🔵 | Remarks |
-|---|---|---|---|---|---|---|---|---|---|
-| 01 | ‹…› | | Unit 1 — Database concepts, applications, and architecture | Activation | Introduce DBMS vs file systems, relate to real data problems | 5% | A | CO1 | |
-| 02 | ‹…› | | Unit 1 — ER modelling and relationship types | Demonstration | Build ER diagrams from textual requirements | 10% | A | CO1 | |
-| 03 | ‹…› | | Unit 1 — Relational model and algebra | Application | Write relational algebra expressions for sample queries | 15% | A | CO1 | |
-| 04 | ‹…› | | Unit 1 — Advanced schema modelling | Integration | Extend a schema with weak entities and multi-valued attributes | 20% | Adv | CO1 | |
-| 05 | ‹…› | | Unit 2 — SQL DDL and DML basics | Demonstration | Create tables, insert/update/delete data in lab | 25% | A | CO2 | |
-| 06 | ‹…› | | Unit 2 — SQL joins and aggregations | Application | Construct and test join queries with grouping | 30% | A | CO2 | |
-| 07 | ‹…› | | Unit 2 — Constraints, views, and subqueries | Application | Implement constraints and use views in exercises | 35% | A | CO2 | |
-| 08 | ‹…› | | Unit 2 — Advanced query formulation | Integration | Develop nested queries and set-operator solutions | 40% | Adv | CO2 | |
-| 09 | ‹…› | | Unit 3 — Functional dependency and normalization | Activation | Identify dependencies and normalize a schema to 3NF | 45% | A | CO3 | |
-| 10 | ‹…› | | Unit 3 — Indexing fundamentals | Demonstration | Compare simple indexes, clustered vs non-clustered | 50% | A | CO4 | |
-| 11 | ‹…› | | Unit 3 — Query execution and cost | Application | Analyze simple query plans and estimate cost | 55% | A | CO4 | |
-| 12 | ‹…› | | Unit 3 — Advanced performance design | Integration | Design index strategy for a given workload and justify choice | 60% | Adv | CO4 | |
-| 13 | ‹…› | | Unit 4 — Transactions and ACID | Activation | Explain ACID and transaction life-cycle with examples | 65% | A | CO5 | |
-| 14 | ‹…› | | Unit 4 — Concurrency control | Demonstration | Simulate schedule serializability and locking behavior | 70% | A | CO5 | |
-| 15 | ‹…› | | Unit 4 — Recovery and durability | Application | Identify recovery actions after crash scenarios | 75% | A | CO5 | |
-| 16 | ‹…› | | Unit 4 — Security and access control | Application | Configure role-based privileges and secure view access | 80% | A | CO6 | |
-| 17 | ‹…› | | Unit 4 — Advanced transaction design | Integration | Propose a recovery and isolation strategy for a business case | 85% | Adv | CO6 | |
-| 18 | ‹…› | | Revision — combined SQL and design problems | Integration | Complete a cumulative lab covering all units | 90% | Adv | CO3, CO4, CO5 | |
-| 19 | ‹…› | | Pre-SEE practice | Application | Run mock lab exam and solve prior-question case studies | 95% | A | CO2, CO3, CO5 | |
-| 20 | ‹…› | | Course wrap-up and review | Integration | Reflection on floor vs advanced outcomes, closing checklist | 100% | Adv | CO6 | |
+The following table maps each week to a focused topic, a concrete activity (aligned to the 1-1-1 rhythm), the assessment artifact, the CO(s) addressed, and the primary Bloom level targeted.
+
+| Week | Topic | Activity (Theory/Test/Evaluation) | Assessment components (Current / Previous / Unknown) | Assessment / Evidence | COs | Bloom level |
+|---:|---|---|---|---|---|---|
+| 1 | Introduction to DBMS & install | Theory (1 hr): concepts; Test (2 hrs): DB setup & basic tasks; Evaluation: graded checklist test | Current: DB setup task; Previous: none; Unknown: short configuration troubleshooting prompt | DB setup log; short reflective note | CO1 | Understand |
+| 2 | ER modelling basics | Theory (1 hr): ER concepts; Test (2 hrs): draw ER for given scenario under timed conditions; Evaluation: rubric-based marking | Current: ER for given scenario; Previous: short question on DB concepts; Unknown: model a lightly altered business rule | ER diagram + entity list | CO1, CO2 | Apply |
+| 3 | Relational schema from ER | Theory (1 hr): mapping rules; Test (2 hrs): convert ER to schema (timed); Evaluation: correctness + justification rubric | Current: map provided ER to schema; Previous: apply ER mapping from week 2; Unknown: map a new variation with a hidden constraint | Relational schema (DDL) + justification | CO2 | Apply |
+| 4 | DDL & basic DML | Theory (1 hr): DDL/DML concepts; Test (2 hrs): write DDL/DML for tasks; Evaluation: automated checks + rubric | Current: write DDL/DML for small schema; Previous: fix an earlier DDL error; Unknown: handle an unexpected data-type/constraint case | SQL script + screenshots of operations | CO3 | Apply |
+| 5 | SELECT, filtering, aggregates | Theory (1 hr): query patterns; Test (2 hrs): write queries under test conditions; Evaluation: test-case based scoring | Current: queries for given tasks; Previous: rewrite a prior week's query for changed schema; Unknown: design a query for a new reporting need | Query worksheet + result sets | CO3 | Analyze |
+| 6 | Joins & subqueries | Theory (1 hr): joins/subqueries; Test (2 hrs): timed join/subquery problems; Evaluation: correctness + efficiency notes | Current: solve given join problems; Previous: adapt a prior SELECT to use joins; Unknown: write a correlated subquery for a new scenario | Join/subquery solutions + test data | CO3 | Analyze |
+| 7 | Views & procedural SQL intro | Theory (1 hr): views/PL-SQL; Test (2 hrs): create view & PL/SQL snippet as test task; Evaluation: rubric on functionality & style | Current: create view / PL-SQL snippet; Previous: modify view based on earlier schema change; Unknown: implement a small business rule in PL/SQL | View definitions + PL/SQL snippet | CO4 | Create |
+| 8 | Checkpoint & debugging | Theory (1 hr): common errors; Test (2 hrs): debug faulty scripts under timed test; Evaluation: correctness and debugging notes | Current: debug provided script; Previous: re-run a past practice/test with corrections; Unknown: diagnose a new injected bug | Corrected scripts + peer feedback | CO3, CO4 | Apply |
+| 9 | Functional dependencies | Theory (1 hr): FDs and keys; Test (2 hrs): extract FDs from dataset; Evaluation: rubric on completeness | Current: list FDs for given schema; Previous: revisit candidate keys from week 3; Unknown: identify hidden FD from extended dataset | FD list + candidate keys | CO5 | Understand/Apply |
+| 10 | Normalization (1NF–BCNF) | Theory (1 hr): Normal forms; Test (2 hrs): normalize relations under timed test; Evaluation: decomposition explanation rubric | Current: normalize provided relation; Previous: show incremental normalization from week 9; Unknown: normalize a relation with a tricky FD | Normalized schema + decomposition steps | CO5 | Analyze |
+| 11 | Indexing & query performance | Theory (1 hr): indexing basics; Test (2 hrs): choose/index + measure simple timings; Evaluation: report + before/after evidence | Current: select indexes for given workload; Previous: re-run a previous query with added index; Unknown: suggest an index for an unfamiliar query pattern | Indexing report + before/after timings | CO4, CO5 | Analyze |
+| 12 | Transactions & ACID | Theory (1 hr): transactions; Test (2 hrs): simulate transaction sequences as test tasks; Evaluation: correctness + explanation rubric | Current: run transaction sequence demonstrating ACID; Previous: adapt a prior practice/test to use transactions; Unknown: resolve a new concurrency anomaly | Transaction log + explanation | CO6 | Understand/Apply |
+| 13 | Concurrency control & isolation | Theory (1 hr): concurrency issues; Test (2 hrs): case-based concurrency analysis test; Evaluation: reasoning rubric | Current: analyze given concurrent history; Previous: re-evaluate transaction from week 12; Unknown: propose isolation level for an unseen workload | Short analysis report on isolation choices | CO6 | Analyze |
+| 14 | Recovery & security | Theory (1 hr): recovery mechanisms; Test (2 hrs): design recovery & roles under test conditions; Evaluation: plan scoring rubric | Current: produce recovery plan; Previous: apply backup steps to earlier DB; Unknown: handle a simulated crash with subtle failure | Recovery/access-control plan | CO6 | Apply |
+| 15 | Integrated mini-project (design) | Theory (1 hr): project framing; Test (2 hrs): project milestone delivery in controlled test; Evaluation: project rubric | Current: deliver project milestone; Previous: incorporate feedback from earlier milestones; Unknown: extend project to handle a new requirement | Mini-project DB, queries, report | CO2–CO6 | Create |
+| 16 | Revision & pre-SEE practice | Theory (1 hr): recap; Test (2 hrs): timed mixed test; Evaluation: scoring + reflection | Current: timed mixed test; Previous: include one earlier-week retrieval item; Unknown: include an unseen integrative problem | Timed mini-test results + reflection | CO1–CO6 | Evaluate |
+
+Assessment notes:
+- Weekly practice/test submissions and worksheets form the CIA evidence (15–16 activities). Each assessment should include one current-week task, one previous-weeks retrieval item, and one unknown-related transfer item as per the assessment strategy.
+- Use rubrics for practice/test scripts (correctness, design, comments) and short analytic write-ups for normalization, transaction, and indexing tasks.
+
+---
+
+## 11. Lesson plan 🟢
+
+| S.No | Planned date | Exec. date | Unit / topic | Merrill phase 🔵 | Activity 🔵 | % compl. | CO 🔵 | Remarks |
+|---|---|---|---|---|---|---|---|---|
+| 01 | ‹…› | | Unit 1 — Database concepts and architecture | Activation | Introduce DBMS vs file systems and relate them to real data problems | 5% | CO1 | |
+| 02 | ‹…› | | Unit 1 — ER modelling and relationship types | Demonstration | Build ER diagrams from textual requirements and handle constraints | 10% | CO1 | |
+| 03 | ‹…› | | Unit 1 — Relational model and algebra | Application | Write and evaluate relational algebra expressions for sample queries | 15% | CO1 | |
+| 04 | ‹…› | | Unit 1 — Schema analysis and design trade-offs | Integration | Analyze schemas with weak entities, multi-valued attributes, and business rules | 20% | CO2 | |
+| 05 | ‹…› | | Unit 2 — SQL DDL and DML basics | Demonstration | Create tables, insert/update/delete data, and apply integrity constraints | 25% | CO3 | |
+| 06 | ‹…› | | Unit 2 — SQL joins and aggregations | Application | Construct and test join queries with grouping and filtering | 30% | CO3 | |
+| 07 | ‹…› | | Unit 2 — Views, constraints, and subqueries | Application | Implement views and construct multi-step queries using subqueries | 35% | CO3 | |
+| 08 | ‹…› | | Unit 2 — Advanced query formulation and set operations | Integration | Develop nested queries, set-operator solutions, and complex reports | 40% | CO3 | |
+| 09 | ‹…› | | Unit 3 — Functional dependency and normalization | Activation | Identify functional dependencies and normalize schemas to 3NF | 45% | CO5 | |
+| 10 | ‹…› | | Unit 3 — Indexing fundamentals | Demonstration | Compare index types and analyze clustered vs non-clustered indexing | 50% | CO5 | |
+| 11 | ‹…› | | Unit 3 — Query execution and performance analysis | Application | Analyze query plans and estimate execution cost | 55% | CO5 | |
+| 12 | ‹…› | | Unit 3 — Performance design and optimization | Integration | Design index strategies for given workloads and justify optimization decisions | 60% | CO4 | |
+| 13 | ‹…› | | Unit 4 — Transactions and ACID properties | Activation | Explain ACID properties and the transaction lifecycle with examples | 65% | CO6 | |
+| 14 | ‹…› | | Unit 4 — Concurrency control and isolation | Demonstration | Simulate serializability and analyze locking and isolation levels | 70% | CO6 | |
+| 15 | ‹…› | | Unit 4 — Recovery mechanisms | Application | Identify recovery actions after crash scenarios and design recovery strategies | 75% | CO6 | |
+| 16 | ‹…› | | Unit 4 — Security, access control, and auditing | Integration | Configure role-based privileges and implement secure view access | 80% | CO6 | |
+| 17 | ‹…› | | Integrated design review | Integration | Propose transaction isolation and recovery strategies for a business application | 85% | CO6 | |
+| 18 | ‹…› | | Revision — cumulative SQL and design problems | Integration | Complete cumulative timed practice/test covering all units and mixed scenarios | 90% | CO3, CO4, CO5, CO6 | |
+| 19 | ‹…› | | Pre-SEE practice and case studies | Application | Solve prior-year questions and design case studies with feedback | 95% | CO3, CO4, CO5, CO6 | |
+| 20 | ‹…› | | Course wrap-up and reflection | Integration | Review key outcomes and learning across all units | 100% | CO1–CO6 | |
 
 ---
 
@@ -179,50 +210,43 @@ This course uses an integrated theory–lab pedagogy. Each week combines a focus
 - SQLZoo and DB-Fiddle for interactive SQL practice.
 - DBVisualizer / DBeaver for schema design and query execution.
 - NPTEL and YouTube lectures for supplementary concepts.
-- Course LMS for lab instructions, sample databases, and assessment rubrics.
+- Course LMS for practice/test instructions, sample databases, and assessment rubrics.
 
 ---
 
 ## 13. Academic integrity policy 🟢
 
-All coursework, lab submissions, quizzes, and tests must be original and properly attributed. Any form of plagiarism or copying in evaluation components will result in zero marks for the affected component.
+All coursework, practice/test submissions, quizzes, and tests must be original and properly attributed. Any form of plagiarism or copying in evaluation components will result in zero marks for the affected component.
 
 ---
 
-## 14. 🔵 Evaluation scheme — dual-level
+## 14. Evaluation scheme
 
-| Sl | Component | Marks | Weight % | Awareness marks (floor) | Advanced marks (ceiling) | Date | COs |
-|---|---|---|---|---|---|---|---|
-| 1 | Test 1 (IA-1) | 20 | 20 | 14 | 6 | Week 6 | CO1–CO3 |
-| | Test 2 (IA-2) | 20 | 20 | 14 | 6 | Week 12 | CO4–CO6 |
-| | Assignment 1 | 5 | 5 | 3 | 2 | Week 8 | CO1–CO3 |
-| | Assignment 2 | 5 | 5 | 3 | 2 | Week 14 | CO4–CO6 |
-| 2 | SEE | 50 | 50 | 35 | 15 | End of semester | CO1–CO6 |
-| **CIE Total** | | **50** | | | | | |
-| **Grand Total** | | **100** | | | | | |
+This course is designed as a single-level course. Differentiation is achieved through scaffolding, formative feedback, and task complexity in the practice/test sessions and assignments rather than by introducing a separate awareness/advanced split in the marks structure.
 
-### 14.1 🔵 CGPA calibration check
+| Sl | Component | Marks | Weight % | Date | COs |
+|---|---|---|---|---|---|
+| 1 | Test 1 (IA-1) | 20 | 20 | Week 6 | CO1–CO3 |
+| | Test 2 (IA-2) | 20 | 20 | Week 12 | CO4–CO6 |
+| | Assignment 1 | 5 | 5 | Week 8 | CO1–CO3 |
+| | Assignment 2 | 5 | 5 | Week 14 | CO4–CO6 |
+| 2 | SEE | 50 | 50 | End of semester | CO1–CO6 |
+| **CIE Total** | | **50** | 50 | | |
+| **Grand Total** | | **100** | 100 | | |
 
-| Check | Entry |
+### 14.1 Question-paper blueprint
+
+| Instrument | Content and cognitive demand |
 |---|---|
-| Marks-to-CGPA conversion used | Standard REVA conversion where 70–74% corresponds to the 7.x band and 75%+ enters 8.0+ band. |
-| Max % achievable from awareness marks alone | 70% |
-| Grade band that % falls into | Below 8 CGPA band |
-| Advanced marks needed to cross 8 CGPA | At least 10–12 of the advanced 30 marks |
-| ✅ Calibration confirmed (awareness-only < 8 CGPA) | Yes |
-
-### 14.2 Question-paper blueprint 🔵
-
-| Instrument | Awareness questions (Bloom: R/U/Ap) | Advanced questions (Bloom: An/E/C) |
-|---|---|---|
-| IA-1 / IA-2 | Simple SQL writing, schema interpretation, normalization, transaction concepts | Complex query synthesis, debugging, indexing justification, recovery design |
-| SEE | Standard question sets on all units with SQL and design tasks | At least one advanced analysis/design question per unit |
+| IA-1 | Covers CO1–CO3 (Unit 1–2 concepts). Includes recall/understanding items on database concepts and ER modelling, application items on SQL queries and constraints, and analysis items on schema design trade-offs. |
+| IA-2 | Covers CO4–CO6 (Unit 3–4 concepts). Includes application items on PL/SQL and optimization, and analysis items on normalization, transaction design, and recovery strategies. |
+| SEE | Comprehensive assessment of all COs. Includes SQL query tasks, schema design and analysis, transaction/concurrency scenarios, and at least one integrative case study requiring synthesis of multiple unit concepts. |
 
 ---
 
-## 15. 🔵 Result analysis
+## 15. Result analysis
 
-| Exam | < 40% (below floor — remediate) | 40–75% (floor cleared) | > 75% (advanced attained) |
+| Exam | < 50% (remediation required) | 50–75% (progressing) | > 75% (proficient) |
 |---|---|---|---|
 | IA-1 | | | |
 | IA-2 | | | |
@@ -232,26 +256,20 @@ All coursework, lab submissions, quizzes, and tests must be original and properl
 
 ## 16. Learner support tracking 🟢🔵
 
-### 16.1 Remediation (students below floor)
+### 16.1 Support needs
 
-| Sl | SRN | Name | IA | Gap identified | Remedial class dates | Re-assessment result |
-|---|---|---|---|---|---|---|
-
-### 16.2 Enrichment (students reaching for ceiling)
-
-| Sl | SRN | Name | Advanced task assigned | Outcome |
-|---|---|---|---|---|
+| Sl | SRN | Name | Support need identified | Support provided | Follow-up result |
+|---|---|---|---|---|---|
 
 ---
 
-## 17. 🔵 Track-advice signal
+## 17. Support planning note
 
 | Field | Entry |
 |---|---|
-| Prerequisite for a SIG track? | Yes — Advanced DBMS, Data Engineering, AI App Dev |
-| % students at advanced level (> 75% / 8+ CGPA) | ‹…› |
-| Domains where advanced performance clustered | Query optimization, schema design, transaction handling |
-| Note to academic mentors | Students meeting the advanced level are strong candidates for data-engineering and backend systems SIGs. |
+| Recommended support focus | SQL formulation, schema modelling, transaction reasoning, and database application debugging |
+| Support mode | Classroom tutorials, lab clinics, and online practice |
+| Note to academic mentors | Students needing additional support should receive guided practice and reassessment opportunities through the regular course support process. |
 
 ---
 
@@ -259,27 +277,29 @@ All coursework, lab submissions, quizzes, and tests must be original and properl
 
 **Target:** 60%
 
-| CO | IA1 | IA2 | A1 | A2 | SEE | Direct attainment | Level 🔵 |
+| CO | IA1 | IA2 | A1 | A2 | SEE | Direct attainment | Level |
 |---|---|---|---|---|---|---|---|
-| CO1 | | | | | | | A |
-| CO2 | | | | | | | A |
-| CO3 | | | | | | | Both |
-| CO4 | | | | | | | Adv |
-| CO5 | | | | | | | Both |
-| CO6 | | | | | | | Adv |
+| CO1 | | | | | | | Standard |
+| CO2 | | | | | | | Standard |
+| CO3 | | | | | | | Standard |
+| CO4 | | | | | | | Standard |
+| CO5 | | | | | | | Standard |
+| CO6 | | | | | | | Standard |
 
 ---
 
 ## 19. CO–PO/PSO mapping & overall attainment 🟢
 
 | CO | PO1 | PO2 | PO3 | PO4 | PO5 | PO6 | PO7 | PO8 | PO9 | PO10 | PO11 | PO12 | PSO1 | PSO2 | PSO3 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| CO1 | X | X | | | | | | | | | | | X | | |
-| CO2 | X | X | X | | | | | | | | | | X | | |
-| CO3 | | X | X | | | | | | | | | | X | | |
-| CO4 | | | X | X | | | | | | | | | | X | |
-| CO5 | | | | X | X | | | | | | | | | | X |
-| CO6 | | | | X | X | | | | | | | | | | X |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| CO1 | 3 | 3 | 2 | 2 | 2 | | | | | 1 | | | 3 | 3 | |
+| CO2 | 3 | 3 | 2 | 3 | 1 | | | | | | | | 3 | 3 | |
+| CO3 | 3 | 3 | 2 | 3 | 3 | | | | | | | | 3 | 3 | 3 |
+| CO4 | 3 | 3 | 2 | 3 | 1 | | | | | | | | 3 | 3 | |
+| CO5 | 3 | 3 | 3 | 3 | 1 | | | | | | | | 2 | | |
+| CO6 | | | | | 2 | | | | 3 | 2 | | | 3 | 3 | |
+
+**Overall attainment model:** Direct 80% + Indirect 20%; minimum PO attainment level to be confirmed by the faculty after the first cycle.
 
 ---
 
@@ -291,3 +311,23 @@ All coursework, lab submissions, quizzes, and tests must be original and properl
 | 2 | | | |
 | 3 | | | |
 | 4 | | | |
+
+---
+
+## 21. Review and sign-off
+
+| Item | Status |
+|---|---|
+| Faculty review completed | ☐ |
+| HoD / Director review completed | ☐ |
+| Remarks | ‹…› |
+
+---
+
+## 22. Merrill strategy reflection
+
+- Problem-centred learning: Students encounter realistic database problems and work toward solutions through guided practice.
+- Activation: Prior knowledge from programming and data structures is linked to relational modelling and SQL.
+- Demonstration: Concepts are shown through worked examples, lab demonstrations, and debugging.
+- Application: Students apply SQL and design techniques in assignments and labs.
+- Integration: Students synthesize design, query, and transaction concepts in cumulative tasks.

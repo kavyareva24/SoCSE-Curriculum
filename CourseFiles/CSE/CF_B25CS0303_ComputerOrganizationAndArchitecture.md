@@ -329,3 +329,4 @@ All evaluation components must be the student’s own work. Plagiarism, unauthor
 **Signatures**
 
 Course Faculty: ‹digital signature — name, date› &nbsp;&nbsp;&nbsp; HoD / Director: ‹digital signature — name, date›
+
