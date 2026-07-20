@@ -2,7 +2,7 @@
 course_code: "B24EHS522"
 title: "High Performance and Quantum Computing"
 programs: [CSE, ISE, IT, AIML, AIDS, IoT, Cyber Security]
-semester: "VII / VIII (Elective)"
+semester: "V | VII | VIII (Elective)"
 category: "PE / Departmental Elective"
 ltpc: "3-0-0-3"
 contact_hours_per_week: 3
@@ -26,7 +26,7 @@ level: "A + Adv"
 
 | Field | Entry |
 |---|---|
-| Faculty name | ‹…› |
+| Faculty name | <NITIN› |
 | REVA ID | ‹…› |
 | Email | ‹…› |
 | Programme | B.Tech — CSE / ISE / IT / AIML / AIDS / IoT / Cyber Security |
@@ -35,7 +35,7 @@ level: "A + Adv"
 | Category | PE / Departmental Elective |
 | L-T-P-C | 3-0-0-3 |
 | Contact hours / week | 3 |
-| Semester | VII / VIII (Elective) |
+| Semester | V | VII / VIII (Elective) |
 | Section | ‹…› |
 | Academic year | ‹…› |
 | Course duration (sessions) | 14 teaching weeks × 3 contact hours/week |
