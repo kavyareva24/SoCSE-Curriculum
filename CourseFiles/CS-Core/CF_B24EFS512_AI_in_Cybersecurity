@@ -1,0 +1,721 @@
+# AI in Cybersecurity Course File
+# Part 1 – Course Information
+
+
+
+# 0. Course Identification
+
+| Field | Entry |
+|---|---|
+| Faculty Name | Harshit Vinayak |
+| REVA ID | REVA03463 |
+| Email | harshit.vinayak@reva.edu.in |
+| Programme | B.Tech – CSE |
+| Course Code | B24EFS512 |
+| Course Title | AI in Cybersecurity |
+| Semester & Section | 5th Semester – All Sections |
+| Academic Year | 2026–27 |
+| Course Duration | 45 Sessions (15L–15D–15P) |
+| Credits | 3 (1-1-1) |
+| Total Learning Hours | 135 |
+| Office / Consultation Hours | As per Department Schedule |
+
+---
+
+# 1. Course Description
+
+Artificial Intelligence has become an integral component of modern cybersecurity systems by enabling automated threat detection, intelligent malware analysis, phishing identification, intrusion detection, security analytics, and incident response. Traditional signature-based security mechanisms struggle against sophisticated and rapidly evolving cyber threats, creating the need for intelligent systems capable of learning from security data.
+
+This course introduces students to the integration of Artificial Intelligence, Machine Learning, and Deep Learning with cybersecurity. Students learn cybersecurity fundamentals before progressing to AI-based solutions for threat detection, malware classification, network traffic analysis, explainable AI, adversarial machine learning, and responsible AI. The course emphasizes practical implementation through demonstrations, laboratory exercises, and a semester mini-project using publicly available cybersecurity datasets.
+
+---
+
+# 2. Prerequisites / Pre-reading
+
+- Fundamentals of Computer Networks
+- Operating Systems
+- Python Programming
+- Data Structures
+- Probability and Statistics
+- Introduction to Artificial Intelligence
+- Basic Cybersecurity Concepts (recommended)
+
+---
+
+# 3. Course Objectives
+
+1. Understand cybersecurity principles and AI concepts.
+2. Apply machine learning algorithms for cyber threat detection.
+3. Develop deep learning models for malware detection and intrusion detection.
+4. Analyse AI-enabled cybersecurity solutions.
+5. Evaluate ethical, explainable, and responsible AI practices.
+6. Design intelligent cybersecurity applications using real-world datasets.
+
+---
+
+# 4. Course Outcomes
+
+| CO No | Course Outcome Description | Related Unit | POs | PSOs |
+|---|---|---|---|---|
+| CO1 | Explain cybersecurity fundamentals and AI concepts. | I | PO1, PO2, PO5, PO10 | PSO1 |
+| CO2 | Apply machine learning algorithms for phishing, spam and intrusion detection. | II | PO1, PO2, PO3, PO5 | PSO1, PSO2 |
+| CO3 | Develop deep learning models for malware detection and network traffic analysis. | III | PO1, PO2, PO3, PO5 | PSO1, PSO2 |
+| CO4 | Analyse AI-enabled cyber defence systems and explainable AI techniques. | IV | PO2, PO3, PO5, PO6 | PSO2 |
+| CO5 | Evaluate ethical AI, adversarial ML and Generative AI in cybersecurity. | V | PO1, PO2, PO4, PO7 | PSO2, PSO3 |
+
+---
+
+## CO–PO / PSO Matrix
+
+| CO\PO | PO1 | PO2 | PO3 | PO4 | PO5 | PO6 | PO7 | PO8 | PO9 | PO10 | PO11 | PSO1 | PSO2 | PSO3 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| CO1 |3|2|0|0|2|0|0|0|0|2|0|3|0|0|
+| CO2 |3|3|2|0|3|0|0|0|2|2|0|3|2|0|
+| CO3 |3|3|3|1|3|0|0|0|3|2|0|3|3|0|
+| CO4 |2|3|3|2|3|2|0|0|2|2|1|2|3|0|
+| CO5 |2|3|2|3|2|2|3|1|0|2|3|1|3|3|
+
+---
+
+
+# 5. Pedagogy & Teaching Methods
+
+The course follows an Outcome-Based Education (OBE) approach emphasizing conceptual understanding, practical implementation, and problem-solving through AI-enabled cybersecurity applications.
+
+## Teaching Strategies
+
+- Interactive lectures
+- Demonstration-based learning
+- Problem-based learning
+- Project-based learning
+- Case-study discussions
+- Collaborative learning
+- Flipped classroom
+- Industry-oriented seminars
+- Continuous formative assessment
+
+## Merrill's First Principles
+
+| Principle | Implementation |
+|---|---|
+| Problem-Centered | Every unit begins with a real cybersecurity problem. |
+| Activation | Prior knowledge of networking, Python and AI is recalled. |
+| Demonstration | Faculty demonstrates AI models and cybersecurity tools. |
+| Application | Students implement ML/DL models on security datasets. |
+| Integration | Students present, defend and improve AI-based cyber defence solutions. |
+
+---
+
+# 6. Unit-wise Syllabus and Hours
+
+## Unit I – Foundations of Cybersecurity and Artificial Intelligence
+
+- Cybersecurity fundamentals
+- CIA Triad
+- Authentication and Access Control
+- Malware, Ransomware and Phishing
+- Social Engineering
+- Artificial Intelligence Fundamentals
+- Machine Learning Basics
+- Deep Learning Overview
+- Applications of AI in Cybersecurity
+
+**Hours:** 3 Lecture + 3 Demonstration + 3 Laboratory
+
+---
+
+## Unit II – Machine Learning for Cyber Threat Detection
+
+- Cybersecurity datasets
+- Data preprocessing
+- Feature engineering
+- Decision Trees
+- Random Forest
+- Support Vector Machines
+- Spam Detection
+- Phishing Detection
+- Intrusion Detection
+
+**Hours:** 3 Lecture + 3 Demonstration + 3 Laboratory
+
+---
+
+## Unit III – Deep Learning for Cyber Defense
+
+- Artificial Neural Networks
+- Convolutional Neural Networks
+- Recurrent Neural Networks
+- LSTM Networks
+- Malware Detection
+- Network Traffic Classification
+- Hyperparameter Tuning
+- Model Evaluation
+
+**Hours:** 3 Lecture + 3 Demonstration + 3 Laboratory
+
+---
+
+## Unit IV – Intelligent Cyber Defense
+
+- Security Information and Event Management (SIEM)
+- User and Entity Behavior Analytics
+- Threat Intelligence
+- Security Analytics
+- Explainable AI (SHAP & LIME)
+- Cloud Security
+- AI-assisted Incident Response
+
+**Hours:** 3 Lecture + 3 Demonstration + 3 Laboratory
+
+---
+
+## Unit V – Responsible AI and Emerging Trends
+
+- Ethical AI
+- Privacy and Data Protection
+- Adversarial Machine Learning
+- Prompt Injection
+- Generative AI
+- AI Governance
+- Future Trends in AI-enabled Cybersecurity
+
+**Hours:** 3 Lecture + 3 Demonstration + 3 Laboratory
+
+---
+
+# 7. In-Class Activities & Experiential Learning
+
+1. Cybersecurity Awareness Quiz
+2. Threat Modelling Exercise
+3. Security Incident Case Study
+4. AI Algorithm Selection Discussion
+5. Malware Analysis Activity
+6. Explainable AI Demonstration
+7. Ethics Debate
+8. Research Paper Presentation
+
+---
+
+# 8. Assignments
+
+## Assignment 1 (Units I & II)
+
+- Dataset exploration
+- Data preprocessing
+- Spam detection
+- Phishing detection
+- Performance analysis
+
+**Marks:** 10 (Awareness 6 + Advanced 4)
+
+---
+
+## Assignment 2 (Units III–V)
+
+- Malware detection
+- Threat intelligence analysis
+- Explainable AI
+- Ethical AI case study
+
+**Marks:** 10 (Awareness 6 + Advanced 4)
+
+---
+
+# 9. Dual-Level Evaluation
+
+| Component | Marks | Awareness | Advanced |
+|---|---:|---:|---:|
+| Assignment 1 | 10 | 6 | 4 |
+| Assignment 2 | 10 | 6 | 4 |
+| Quiz & Activities | 10 | 10 | 0 |
+| Mini Project | 10 | 6 | 4 |
+| SEE | 60 | 36 | 24 |
+
+
+
+## 10. Session Plan – Unit I
+**Course Outcome:** CO1
+
+| Session | Topic | Merrill Phase | Teaching Strategy | Activity | Level |
+|---|---|---|---|---|---|
+| L1 | Course Introduction & Cybersecurity Landscape | Problem-Centered | Interactive Lecture | Discussion on recent cyber attacks | Awareness |
+| L2 | CIA Triad, Authentication & Access Control | Activation | Case-based Teaching | Analyze security scenarios | Awareness |
+| L3 | Malware, Phishing & Social Engineering | Demonstration | Multimedia Lecture | Threat identification exercise | Awareness |
+| D1 | Wireshark Introduction | Demonstration | Live Demo | Packet inspection | Awareness |
+| D2 | Password Hashing | Application | Python Demo | Compare hashing algorithms | Awareness |
+| D3 | Cybersecurity Tools Overview | Integration | Guided Demo | VirusTotal/Shodan exploration | Awareness |
+| P1 | Python Environment Setup | Application | Lab | Install required libraries | Awareness |
+| P2 | Explore Security Datasets | Application | Lab | Load CICIDS2017 / NSL-KDD | Awareness |
+| P3 | Security Log Visualization | Integration | Lab | Visualize attack patterns | Awareness |
+
+### Unit I Continuous Assessment
+- Cybersecurity Awareness Quiz
+- Threat Analysis Activity
+- Short Assignment on recent cyber attacks
+
+---
+
+## 11. Session Plan – Unit II
+**Course Outcome:** CO2
+
+| Session | Topic | Merrill Phase | Teaching Strategy | Activity | Level |
+|---|---|---|---|---|---|
+| L4 | Cybersecurity Datasets | Activation | Interactive Lecture | Dataset comparison | Awareness |
+| L5 | Data Preprocessing & Feature Engineering | Demonstration | Guided Learning | Data cleaning exercise | Advanced |
+| L6 | Decision Tree, Random Forest & SVM | Application | Problem-based Learning | Algorithm comparison | Advanced |
+| D4 | Data Cleaning using Pandas | Demonstration | Live Coding | Handle missing values | Advanced |
+| D5 | Spam Detection using Decision Tree | Application | Demo | Train baseline classifier | Advanced |
+| D6 | Phishing Detection using Random Forest | Integration | Demo | Compare evaluation metrics | Advanced |
+| P4 | Feature Engineering | Application | Lab | Prepare dataset | Advanced |
+| P5 | Spam Detection Implementation | Application | Lab | Build ML model | Advanced |
+| P6 | Phishing Detection | Integration | Lab | Evaluate performance | Advanced |
+
+### Unit II Continuous Assessment
+- Dataset Exploration Exercise
+- Assignment on Spam & Phishing Detection
+- Laboratory Evaluation
+- Internal Assessment I
+
+---
+
+## 12. Learning Resources
+
+### Software
+- Python
+- Jupyter Notebook
+- Google Colab
+- Scikit-learn
+- Pandas
+- NumPy
+- Wireshark
+
+### Datasets
+- CICIDS2017
+- NSL-KDD
+- UNSW-NB15
+- Spambase
+- Phishing Websites Dataset
+
+---
+
+## 13. Merrill Mapping Summary (Units I & II)
+
+| Principle | Implementation |
+|---|---|
+| Problem-Centered | Real cyber attack scenarios |
+| Activation | Recall networking, Python and AI concepts |
+| Demonstration | Live demonstrations using security tools |
+| Application | ML implementation on cybersecurity datasets |
+| Integration | Presentation and reflection on AI-enabled defence |
+
+
+
+---
+
+# 14. Session Plan – Unit III: Deep Learning for Cyber Defense
+**Course Outcome:** CO3
+
+| Session | Topic | Merrill Phase | Teaching Strategy | Activity | Level |
+|---|---|---|---|---|---|
+| L7 | Artificial Neural Networks and Deep Learning Fundamentals | Activation | Interactive Lecture | Compare ML and DL | Awareness |
+| L8 | CNN and RNN Architectures | Demonstration | Guided Discussion | Architecture selection | Advanced |
+| L9 | LSTM for Malware Detection & Traffic Analysis | Application | Problem-Based Learning | Design workflow | Advanced |
+| D7 | CNN-based Malware Classification | Demonstration | TensorFlow Demo | Observe training pipeline | Advanced |
+| D8 | LSTM Traffic Classification | Application | Live Coding | Sequence modelling | Advanced |
+| D9 | Performance Metrics (Accuracy, Precision, Recall, ROC-AUC) | Integration | Guided Demo | Model comparison | Advanced |
+| P7 | CNN Malware Detection | Application | Laboratory | Build CNN classifier | Advanced |
+| P8 | LSTM Network Traffic Classification | Application | Laboratory | Train LSTM model | Advanced |
+| P9 | Hyperparameter Tuning & Evaluation | Integration | Laboratory | Improve model performance | Advanced |
+
+### Continuous Assessment
+- Deep Learning Quiz
+- Research Paper Review
+- Laboratory Evaluation
+- Assignment on Malware Detection
+
+---
+
+# 15. Session Plan – Unit IV: Intelligent Cyber Defense
+**Course Outcome:** CO4
+
+| Session | Topic | Merrill Phase | Teaching Strategy | Activity | Level |
+|---|---|---|---|---|---|
+| L10 | SIEM and UEBA | Activation | Interactive Lecture | SOC workflow discussion | Awareness |
+| L11 | Threat Intelligence & Security Analytics | Demonstration | Case Study | Threat correlation | Advanced |
+| L12 | Explainable AI (SHAP & LIME) | Integration | Seminar | Interpret AI decisions | Advanced |
+| D10 | SIEM Dashboard Exploration | Demonstration | Splunk/Elastic | Security event analysis | Advanced |
+| D11 | SHAP and LIME Demonstration | Application | Python | Feature importance analysis | Advanced |
+| D12 | Threat Intelligence Platform | Integration | Demo | IOC exploration | Advanced |
+| P10 | Explainable AI Implementation | Application | Laboratory | Explain predictions | Advanced |
+| P11 | Threat Dashboard Development | Application | Laboratory | Dashboard creation | Advanced |
+| P12 | AI-assisted Incident Analysis | Integration | Laboratory | End-to-end analysis | Advanced |
+
+### Continuous Assessment
+- Threat Intelligence Presentation
+- Explainable AI Activity
+- Internal Assessment II
+
+---
+
+# 16. Session Plan – Unit V: Responsible AI & Emerging Trends
+**Course Outcome:** CO5
+
+| Session | Topic | Merrill Phase | Teaching Strategy | Activity | Level |
+|---|---|---|---|---|---|
+| L13 | Ethical AI & Privacy | Activation | Interactive Lecture | Ethics discussion | Awareness |
+| L14 | Adversarial Machine Learning | Demonstration | Case Analysis | Attack analysis | Advanced |
+| L15 | Generative AI, Prompt Injection & Future Trends | Integration | Seminar | Group debate | Advanced |
+| D13 | Adversarial Example Demonstration | Demonstration | Python | Robustness testing | Advanced |
+| D14 | Prompt Injection Demonstration | Application | LLM Demo | Secure prompting | Advanced |
+| D15 | AI Security Assistant | Integration | Live Demo | LLM-assisted SOC workflow | Advanced |
+| P13 | Adversarial ML Experiment | Application | Laboratory | Evaluate robustness | Advanced |
+| P14 | Secure Prompt Engineering | Application | Laboratory | Prompt design | Advanced |
+| P15 | Final Integrated AI Cybersecurity Solution | Integration | Laboratory | Capstone implementation | Advanced |
+
+### Continuous Assessment
+- Ethics Debate
+- Generative AI Case Study
+- Final Laboratory Evaluation
+- Mini Project Demonstration
+
+---
+
+# 17. Bloom's Taxonomy Mapping
+
+| CO | Remember | Understand | Apply | Analyze | Evaluate | Create |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|
+| CO3 |  | ✓ | ✓ | ✓ | ✓ | ✓ |
+| CO4 |  | ✓ | ✓ | ✓ | ✓ |  |
+| CO5 |  | ✓ |  | ✓ | ✓ | ✓ |
+
+---
+
+# 18. Merrill's First Principles Summary
+
+| Principle | Course Implementation |
+|---|---|
+| Problem-Centered | Malware, intrusion detection, SOC analytics and AI governance scenarios |
+| Activation | Build on networking, Python, AI and ML knowledge |
+| Demonstration | Faculty demonstrates deep learning models and cybersecurity platforms |
+| Application | Students implement AI-based cyber defence solutions |
+| Integration | Semester project, presentations and reflective learning |
+
+
+---
+
+# 19. Assessment Scheme
+
+| Component | Marks | Awareness | Advanced | COs Assessed |
+|---|---:|---:|---:|---|
+| Internal Assessment–1 | 20 | 14 | 6 | CO1, CO2 |
+| Assignment–1 | 10 | 6 | 4 | CO1, CO2 |
+| Assignment–2 | 10 | 6 | 4 | CO3, CO4 |
+| Quiz / Classroom Activities | 10 | 10 | 0 | CO1–CO4 |
+| Mini Project | 10 | 6 | 4 | CO3–CO5 |
+| Semester End Examination | 60 | 36 | 24 | CO1–CO5 |
+| **Total** | **100** | **78** | **22** | |
+
+> Students demonstrating only Awareness-level competencies are expected to clear the foundational outcomes. Advanced marks assess higher-order analysis, design, innovation, and critical evaluation.
+
+---
+
+# 20. CO–Assessment Mapping
+
+| Assessment Tool | CO1 | CO2 | CO3 | CO4 | CO5 |
+|---|:---:|:---:|:---:|:---:|:---:|
+| IA–1 | ✓ | ✓ | | | |
+| Assignment–1 | ✓ | ✓ | | | |
+| Assignment–2 | | | ✓ | ✓ | |
+| Quiz | ✓ | ✓ | ✓ | ✓ | |
+| Mini Project | | | ✓ | ✓ | ✓ |
+| SEE | ✓ | ✓ | ✓ | ✓ | ✓ |
+
+---
+
+# 21. Semester End Examination Blueprint
+
+## Part A – Fundamentals (20 Marks)
+
+- Cybersecurity fundamentals
+- AI concepts
+- Machine Learning basics
+- Malware
+- Phishing
+- Short descriptive questions
+
+Bloom's Levels:
+- Remember
+- Understand
+- Apply
+
+---
+
+## Part B – Analytical Questions (20 Marks)
+
+Questions based on:
+
+- Machine Learning algorithms
+- Dataset preprocessing
+- Malware detection
+- Intrusion Detection Systems
+- Explainable AI
+
+Bloom's Levels:
+
+- Apply
+- Analyze
+- Evaluate
+
+---
+
+## Part C – Advanced Design Problems (20 Marks)
+
+Questions include:
+
+- AI-enabled SOC design
+- Intelligent cyber defence architecture
+- Generative AI security
+- Adversarial Machine Learning
+- Responsible AI
+
+Bloom's Levels:
+
+- Analyze
+- Evaluate
+- Create
+
+---
+
+# 22. Laboratory Evaluation Rubric
+
+| Criterion | Marks |
+|---|---:|
+| Problem Understanding | 2 |
+| Dataset Preparation | 2 |
+| Implementation | 6 |
+| Result Analysis | 4 |
+| Documentation | 3 |
+| Viva | 3 |
+| **Total** | **20** |
+
+---
+
+# 23. Mini Project Rubric
+
+| Criterion | Marks |
+|---|---:|
+| Problem Identification | 5 |
+| Literature Survey | 5 |
+| Dataset Collection | 5 |
+| AI Model Development | 15 |
+| Evaluation | 10 |
+| Innovation | 10 |
+| Documentation | 10 |
+| Presentation | 10 |
+| Viva | 10 |
+| **Total** | **80** |
+
+Suggested Project Themes
+
+- AI-based Malware Detection
+- Phishing Website Detection
+- Spam Email Classification
+- Intelligent Intrusion Detection
+- AI Security Chatbot
+- AI Threat Intelligence Dashboard
+- Secure Prompt Injection Detection
+- Explainable AI for Security Analytics
+
+---
+
+# 24. Internal Assessment Guidelines
+
+Assessment should include:
+
+- Individual assignments
+- Laboratory performance
+- Programming exercises
+- Group discussion
+- Case study analysis
+- Demonstrations
+- Mini project reviews
+
+Faculty should provide continuous feedback after every assessment.
+
+---
+
+# 25. Academic Integrity
+
+Students shall:
+
+- Submit original work.
+- Properly acknowledge datasets and literature.
+- Avoid plagiarism.
+- Avoid AI-generated submissions without attribution.
+- Maintain ethical conduct during laboratory and project work.
+
+Violation of academic integrity policies may result in penalties according to university regulations.
+
+**End of Part 5**
+
+
+# 26. CO Attainment
+
+**Target CO Attainment:** 60%
+
+| CO | IA | Assignment | Quiz | Mini Project | SEE | Direct Attainment | Level |
+|---|---:|---:|---:|---:|---:|---:|---|
+| CO1 | | | | | | | Awareness |
+| CO2 | | | | | | | Awareness |
+| CO3 | | | | | | | Both |
+| CO4 | | | | | | | Advanced |
+| CO5 | | | | | | | Advanced |
+
+---
+
+# 27. Result Analysis
+
+| Assessment | Below 40% | 40–75% | Above 75% | Remarks |
+|---|---:|---:|---:|---|
+| IA–1 | | | | |
+| Assignment–1 | | | | |
+| Assignment–2 | | | | |
+| Quiz | | | | |
+| Mini Project | | | | |
+| SEE | | | | |
+
+Faculty should analyse learning gaps after every assessment and prepare action plans for continuous improvement.
+
+---
+
+# 28. Learner Support
+
+## Remediation (Slow Learners)
+
+| SRN | Student Name | Learning Gap | Action Taken | Outcome |
+|---|---|---|---|---|
+
+Suggested activities:
+- Additional programming practice
+- Extra laboratory sessions
+- Guided coding tutorials
+- One-to-one mentoring
+- Revision quizzes
+
+---
+
+## Enrichment (Advanced Learners)
+
+| SRN | Student Name | Advanced Activity | Outcome |
+|---|---|---|---|
+
+Suggested enrichment:
+- Research paper reading
+- Kaggle cybersecurity competitions
+- CTF participation
+- Open-source contributions
+- AI security hackathons
+
+---
+
+# 29. Course Completion Summary
+
+| Unit | Planned Date | Completion Date | Remarks |
+|---|---|---|---|
+| Unit I | | | |
+| Unit II | | | |
+| Unit III | | | |
+| Unit IV | | | |
+| Unit V | | | |
+
+---
+
+# 30. Continuous Course Improvement
+
+Based on:
+
+- CO attainment
+- Student feedback
+- Employer feedback
+- Alumni feedback
+- Industry recommendations
+- Placement analysis
+
+Possible improvements:
+
+- Introduce newer cybersecurity datasets.
+- Include latest Generative AI security tools.
+- Add cloud-based cybersecurity demonstrations.
+- Increase industry case studies.
+- Expand Explainable AI coverage.
+
+---
+
+# 31. Faculty Reflection
+
+Reflection prompts:
+
+- Were the course outcomes achieved?
+- Were the laboratory sessions effective?
+- Did demonstrations improve understanding?
+- Were the awareness and advanced levels balanced?
+- Which topics require revision?
+- What changes should be incorporated in the next offering?
+
+---
+
+# 32. Learning Resources
+
+## Textbooks
+
+1. Alessandro Parisi — Hands-On Artificial Intelligence for Cybersecurity
+2. Clarence Chio & David Freeman — Machine Learning and Security
+3. Anand Nayyar — Artificial Intelligence and Machine Learning for Cybersecurity
+4. Leslie F. Sikos — AI in Cybersecurity
+
+## Reference Books
+
+- William Stallings — Network Security Essentials
+- Nina Godbole — Information Systems Security
+- Ian Goodfellow — Deep Learning
+
+## Online Resources
+
+- OWASP
+- NIST Cybersecurity Framework
+- MITRE ATT&CK
+- Kaggle
+- TensorFlow Documentation
+- Scikit-learn Documentation
+
+---
+
+# 33. Software & Laboratory Resources
+
+Software
+
+- Python
+- Jupyter Notebook
+- Google Colab
+- VS Code
+- TensorFlow
+- Scikit-learn
+- Wireshark
+- Splunk Community Edition
+
+Datasets
+
+- CICIDS2017
+- NSL-KDD
+- UNSW-NB15
+- CSE-CIC-IDS2018
+- Spambase
+- Phishing Websites Dataset
+
+---
+
+# 34. Course Closure
+
+The course integrates Artificial Intelligence with Cybersecurity using an outcome-based approach supported by demonstrations, laboratory sessions, real-world datasets, continuous assessment, and semester-long project work. The curriculum prepares students to develop intelligent cyber defence systems while considering ethical AI, explainability, privacy, and emerging trends.
+
+---
