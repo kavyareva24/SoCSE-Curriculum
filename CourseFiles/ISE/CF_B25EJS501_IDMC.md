@@ -243,8 +243,8 @@ The course outcomes are mapped to Bloom's Cognitive Levels to ensure progressive
 
 | Course Outcome | Remember (L1) | Understand (L2) | Apply (L3) | Analyze (L4) | Evaluate (L5) | Create (L6) |
 |----------------|:-------------:|:---------------:|:----------:|:------------:|:-------------:|:-----------:|
-| **CO1** | - | ✓ | - | ✓ | - | - |
-| **CO2** | - | - | ✓ | ✓ | - | - |
+| **CO1** | - | ✓ | - | - | - | - |
+| **CO2** | - | - | ✓ | - | - | - |
 | **CO3** | - | - | ✓ | - | - | - |
 | **CO4** | - | - | ✓ | - | - | - |
 | **CO5** | - | - | - | ✓ | - | - |
