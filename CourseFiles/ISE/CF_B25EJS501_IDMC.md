@@ -227,14 +227,12 @@ Upon successful completion of this course, the student will be able to:
 
 | CO | Course Outcome | Bloom's Level |
 |----|----------------|---------------|
-| **CO1** | Explain the concepts of Informatica Cloud Services, Intelligent Data Management Cloud (IDMC), and enterprise cloud data management architecture. | L2 |
+| **CO1** | Explain the concepts of Informatica Cloud Services, Intelligent Data Management Cloud (IDMC), and enterprise cloud data management architecture. | L2|
 | **CO2** | Demonstrate the configuration of IDMC Organizations, User Management, Secure Agent installation, and Runtime Environment concepts. | L3 |
 | **CO3** | Apply Secure Agent functionalities, asset management concepts, monitoring services, and operational best practices for enterprise cloud data integration. | L3 |
 | **CO4** | Apply Runtime Environment concepts, connection management, scheduling services, and administrative practices within Informatica Intelligent Data Management Cloud. | L3 |
 | **CO5** | Explain and utilize Informatica Platform REST APIs for enterprise administration, monitoring, and automation. | L4 |
 | **CO6** | Analyze enterprise governance, troubleshooting methodologies, monitoring reports, execution logs, and cloud administration best practices. | L4 |
-
-
 
 ---
 # 6. Bloom's Taxonomy Mapping 🟢
