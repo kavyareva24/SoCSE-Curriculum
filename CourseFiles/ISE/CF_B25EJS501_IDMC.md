@@ -227,14 +227,14 @@ Upon successful completion of this course, the student will be able to:
 
 | CO | Course Outcome | Bloom's Level |
 |----|----------------|---------------|
-| **CO1** | Explain the concepts of Informatica Cloud Services, Intelligent Data Management Cloud (IDMC), and enterprise cloud data management architecture. | L2, L4 |
-| **CO2** | Demonstrate the configuration of IDMC Organizations, User Management, Secure Agent installation, and Runtime Environment concepts. | L3, L4 |
+| **CO1** | Explain the concepts of Informatica Cloud Services, Intelligent Data Management Cloud (IDMC), and enterprise cloud data management architecture. | L2 |
+| **CO2** | Demonstrate the configuration of IDMC Organizations, User Management, Secure Agent installation, and Runtime Environment concepts. | L3 |
 | **CO3** | Apply Secure Agent functionalities, asset management concepts, monitoring services, and operational best practices for enterprise cloud data integration. | L3 |
 | **CO4** | Apply Runtime Environment concepts, connection management, scheduling services, and administrative practices within Informatica Intelligent Data Management Cloud. | L3 |
 | **CO5** | Explain and utilize Informatica Platform REST APIs for enterprise administration, monitoring, and automation. | L4 |
 | **CO6** | Analyze enterprise governance, troubleshooting methodologies, monitoring reports, execution logs, and cloud administration best practices. | L4 |
 
-> **Note:** The Course Outcomes are aligned with the approved syllabus and form the basis for Outcome-Based Education (OBE), continuous internal assessment, and course outcome attainment.
+
 
 ---
 # 6. Bloom's Taxonomy Mapping 🟢
@@ -250,7 +250,7 @@ The course outcomes are mapped to Bloom's Cognitive Levels to ensure progressive
 | **CO5** | - | - | - | ✓ | - | - |
 | **CO6** | - | - | - | ✓ | - | - |
 
-> **Observation:** The course is designed to develop conceptual understanding (L2), practical application (L3), and analytical thinking (L4). Higher-order cognitive levels such as **Evaluate (L5)** and **Create (L6)** are not explicitly targeted in this introductory overview course.
+
 
 ---
 
