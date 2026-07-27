@@ -1,23 +1,15 @@
-+-------------+------------------------------------------------------+------------------------+-----------------------+
-| **Course    | Introduction to C Programming                        | > **Course Type**      | > **HC**              |
-| Title**     |                                                      |                        |                       |
-+=============+:==========:+:=============:+:==========:+:==========:+:========:+:===========:+===========+===========+
-| > **Course  | B25CI0101  | > **Credits** | > **2**                 | > **Class**            | > **I Semester**      |
-| > Code**    |            |               |                         |                        |                       |
-+-------------+------------+---------------+------------+------------+------------------------+-----------------------+
-| **Course    | > LTP      | > Credits     | > Contact  | > Work     | > Total Number of      | > Assessment          |
-| Structure** |            |               | > Hours    | > Load     | > Classes              | > Weightage           |
-|             |            |               |            |            | >                      |                       |
-|             |            |               |            |            | > Per Semester         |                       |
-|             +------------+---------------+------------+------------+                        |                       |
-|             | > Lecture  | > 1           | 1          | > 1        |                        |                       |
-|             +------------+---------------+------------+------------+------------------------+-----------------------+
-|             | Tutorial   | > 1           | 2          | > 2        |                        |                       |
-|             +------------+---------------+------------+------------+----------+-------------+-----------+-----------+
-|             | > Practice | > \-          | \-         | > \-       | > Theory | > Practical | > CIE     | > SEE     |
-|             +------------+---------------+------------+------------+----------+-------------+-----------+-----------+
-|             | **Total**  | > **2**       | **3**      | > **3**    | > **42** | > **-**     | > **50%** | > **50%** |
-+-------------+------------+---------------+------------+------------+----------+-------------+-----------+-----------+
+| Field | Details |
+| --- | --- |
+| Course Title | Introduction to C Programming |
+| Course Type | HC |
+| Course Code | B25CI0101 |
+| Credits | 2 |
+| Class | I Semester |
+| L-T-P | 1-1-0 |
+| Contact Hours | 3 |
+| Work Load | 3 |
+| Total Number of Classes Per Semester | 42 |
+| Assessment Weightage | CIE 50%, SEE 50% |
 
 **COURSE OVERVIEW**:
 
@@ -63,273 +55,52 @@ engineering contexts.
 
 After the completion of the course, the student will be able to:
 
-+-----------+------------------------------------------------+---------+----------+
-| > **CO#** | **Course Outcomes**                            | **POs** | **PSOs** |
-+:=========:+:===============================================+:=======:+:========:+
-| **CO1**   | Write flowcharts and algorithms to solve       | 1-3     | > 1      |
-|           | simple problems.                               |         |          |
-+-----------+------------------------------------------------+---------+----------+
-| **CO2**   | Understand basic usage of Unix and Windows     | > 1-5   | > 1      |
-|           | operating system required for creating,        |         |          |
-|           | compiling, debugging and running C programs.   |         |          |
-+-----------+------------------------------------------------+---------+----------+
-| **CO3**   | Understand foundational concept of C           | > 1-5   | > 1      |
-|           | programming constructs such as variables, data |         |          |
-|           | types, and standard I/O functions for solving  |         |          |
-|           | simple problems.                               |         |          |
-+-----------+------------------------------------------------+---------+----------+
-| **CO4**   | Understand conditional and unconditional       | 1-3,5   | > 2,3    |
-|           | control flow statements including if, for and  |         |          |
-|           | while using illustrative example problems.     |         |          |
-+-----------+------------------------------------------------+---------+----------+
-| **CO5**   | Understand arrays, strings, structures and     | 1-5     | > 2,3    |
-|           | array of structures using illustrative C       |         |          |
-|           | programs.                                      |         |          |
-+-----------+------------------------------------------------+---------+----------+
-| **CO6**   | Understand functions to achieve modularity     | 1-5     | > 2,3    |
-|           | using illustrative C programs.                 |         |          |
-+-----------+------------------------------------------------+---------+----------+
+| CO# | Course Outcomes | POs | PSOs |
+| --- | --- | --- | --- |
+| CO1 | Write flowcharts and algorithms to solve simple problems. | 1-3 | 1 |
+| CO2 | Understand basic usage of Unix and Windows operating system required for creating, compiling, debugging and running C programs. | 1-5 | 1 |
+| CO3 | Understand foundational concept of C programming constructs such as variables, data types, and standard I/O functions for solving simple problems. | 1-5 | 1 |
+| CO4 | Understand conditional and unconditional control flow statements including if, for and while using illustrative example problems. | 1-3,5 | 2,3 |
+| CO5 | Understand arrays, strings, structures and array of structures using illustrative C programs. | 1-5 | 2,3 |
+| CO6 | Understand functions to achieve modularity using illustrative C programs. | 1-5 | 2,3 |
 
 **BLOOM'S LEVEL OF THE COURSE OUTCOMES:**
 
-+-----------+---------------------------------------------------------------------------------------------------------------+
-| > **CO#** | > **Bloom's Level**                                                                                           |
-|           +--------------------+----------------------+----------------+----------------+----------------+----------------+
-|           | > **Remember(L1)** | > **Understand(L2)** | > **Apply      | > **Analyze    | > **Evaluate   | > **Create     |
-|           |                    |                      | > (L3)**       | > (L4)**       | > (L5)**       | > (L6)**       |
-+:=========:+====================+:====================:+:==============:+================+================+================+
-| > **CO1** |                    | **✔**                |                |                |                |                |
-+-----------+--------------------+----------------------+----------------+----------------+----------------+----------------+
-| > **CO2** |                    | **✔**                |                |                |                |                |
-+-----------+--------------------+----------------------+----------------+----------------+----------------+----------------+
-| **CO3**   |                    |                      | **✔**          |                |                |                |
-+-----------+--------------------+----------------------+----------------+----------------+----------------+----------------+
-| > **CO4** |                    |                      | **✔**          |                |                |                |
-+-----------+--------------------+----------------------+----------------+----------------+----------------+----------------+
-| > **CO5** |                    | **✔**                | **✔**          |                |                |                |
-+-----------+--------------------+----------------------+----------------+----------------+----------------+----------------+
-| **CO6**   |                    | **✔**                |                |                |                |                |
-+-----------+--------------------+----------------------+----------------+----------------+----------------+----------------+
+| CO# | Remember (L1) | Understand (L2) | Apply (L3) | Analyze (L4) | Evaluate (L5) | Create (L6) |
+| --- | --- | --- | --- | --- | --- | --- |
+| CO1 |  | ✔ |  |  |  |  |
+| CO2 |  | ✔ |  |  |  |  |
+| CO3 |  |  | ✔ |  |  |  |
+| CO4 |  |  | ✔ |  |  |  |
+| CO5 |  | ✔ | ✔ |  |  |  |
+| CO6 |  | ✔ |  |  |  |  |
 
-**COURSE ARTICULATIONMATRIX:**
+**COURSE ARTICULATION MATRIX:**
 
-<table>
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 8%" />
-<col style="width: 9%" />
-<col style="width: 5%" />
-<col style="width: 5%" />
-<col style="width: 5%" />
-<col style="width: 5%" />
-<col style="width: 5%" />
-<col style="width: 5%" />
-<col style="width: 5%" />
-<col style="width: 5%" />
-<col style="width: 5%" />
-<col style="width: 5%" />
-<col style="width: 6%" />
-<col style="width: 5%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: center;"><blockquote>
-<p><strong>CO#/</strong></p>
-<p><strong>POs</strong></p>
-</blockquote></th>
-<th style="text-align: center;"><blockquote>
-<p><strong>PO1</strong></p>
-</blockquote></th>
-<th style="text-align: center;"><blockquote>
-<p><strong>PO2</strong></p>
-</blockquote></th>
-<th style="text-align: center;"><blockquote>
-<p><strong>PO3</strong></p>
-</blockquote></th>
-<th style="text-align: center;"><blockquote>
-<p><strong>PO4</strong></p>
-</blockquote></th>
-<th><blockquote>
-<p><strong>PO5</strong></p>
-</blockquote></th>
-<th><blockquote>
-<p><strong>PO6</strong></p>
-</blockquote></th>
-<th><blockquote>
-<p><strong>PO7</strong></p>
-</blockquote></th>
-<th><blockquote>
-<p><strong>PO8</strong></p>
-</blockquote></th>
-<th><blockquote>
-<p><strong>PO9</strong></p>
-</blockquote></th>
-<th><blockquote>
-<p><strong>PO10</strong></p>
-</blockquote></th>
-<th><blockquote>
-<p><strong>PO11</strong></p>
-</blockquote></th>
-<th style="text-align: center;"><blockquote>
-<p><strong>PSO1</strong></p>
-</blockquote></th>
-<th style="text-align: center;"><blockquote>
-<p><strong>PSO2</strong></p>
-</blockquote></th>
-<th style="text-align: center;"><blockquote>
-<p><strong>PSO3</strong></p>
-</blockquote></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: center;"><strong>CO1</strong></td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">1</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;"></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td style="text-align: center;"><blockquote>
-<p>3</p>
-</blockquote></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td style="text-align: center;"><strong>CO2</strong></td>
-<td style="text-align: center;">1</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;"></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td style="text-align: center;"><blockquote>
-<p>3</p>
-</blockquote></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td style="text-align: center;"><strong>CO3</strong></td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">1</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">3</td>
-</tr>
-<tr>
-<td style="text-align: center;"><strong>CO4</strong></td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">1</td>
-<td style="text-align: center;">1</td>
-<td></td>
-<td></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">3</td>
-</tr>
-<tr>
-<td style="text-align: center;"><strong>CO5</strong></td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">2</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td style="text-align: center;"><strong>CO6</strong></td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">2</td>
-<td></td>
-<td></td>
-<td></td>
-<td style="text-align: center;">3</td>
-<td></td>
-<td></td>
-<td style="text-align: center;"><blockquote>
-<p>3</p>
-</blockquote></td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">2</td>
-</tr>
-</tbody>
-</table>
+| CO#/POs | PO1 | PO2 | PO3 | PO4 | PO5 | PO6 | PO7 | PO8 | PO9 | PO10 | PO11 | PSO1 | PSO2 | PSO3 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| CO1 | 2 | 1 | 3 |  |  |  |  |  |  |  |  | 3 |  |  |
+| CO2 | 1 | 3 | 2 | 2 | 2 |  |  |  |  |  |  | 3 |  |  |
+| CO3 | 2 | 2 | 2 |  | 1 |  |  |  |  |  |  |  | 3 | 3 |
+| CO4 | 3 | 3 | 3 | 1 | 1 |  |  |  |  |  |  |  | 3 | 3 |
+| CO5 | 3 | 3 | 3 | 2 | 2 |  |  |  |  |  |  |  |  |  |
+| CO6 | 3 | 3 | 3 | 2 | 2 |  |  |  | 3 |  |  | 3 | 3 | 2 |
 
 **Note:** 1-Low, 2-Medium, 3-High
 
 **COURSE CONTENT THEORY**
 
-+-----------------------------------------------------------------------+
-| > **Content**                                                         |
-+=======================================================================+
-| 1.  **Introduction to C Programming Constructs:** Introduction to     |
-|     algorithm and flowchart, overview of C programming language and   |
-|     structure of a C program. Variables, expressions and data types,  |
-|     Input and output functions.                                       |
-|                                                                       |
-| 2.  **Operators in C:** Arithmetic operators, Relational operators,   |
-|     Logical operators, Bitwise operators, Assignment operators,       |
-|     Conditional operator, Precedence and associativity of operators   |
-|     and Type conversion.                                              |
-|                                                                       |
-| 3.  **Control Flow in C:** Conditional control statements: if,        |
-|     if-else, else-if ladder and switch case. Looping statements: for, |
-|     nested loops, while and do-while. Unconditional Statements:       |
-|     continue, return, and break.                                      |
-|                                                                       |
-| 4.  **Data Structures in C -- Arrays, Strings, and Structures:** One  |
-|     and two-dimensional arrays. String handling in C: character       |
-|     arrays, usage of standard library functions. Structure and Union: |
-|     definition, declaration, and accessing members. Array of          |
-|     structures.                                                       |
-|                                                                       |
-| 5.  **Modular Programming with Functions:** Concept of modularity and |
-|     need for functions, User-defined functions: function declaration, |
-|     definition, and call. Function arguments and return values (call  |
-|     by value).                                                        |
-|                                                                       |
-| 6.  **Unix and windows Commands:** Installation of required software. |
-|     Commands for setting path variables, creating directory, changing |
-|     working directory, copying files, deleting files.                 |
-+-----------------------------------------------------------------------+
+1.  **Introduction to C Programming Constructs:** Introduction to algorithm and flowchart, overview of C programming language and structure of a C program. Variables, expressions and data types, Input and output functions.
+
+2.  **Operators in C:** Arithmetic operators, Relational operators, Logical operators, Bitwise operators, Assignment operators, Conditional operator, Precedence and associativity of operators and Type conversion.
+
+3.  **Control Flow in C:** Conditional control statements: if, if-else, else-if ladder and switch case. Looping statements: for, nested loops, while and do-while. Unconditional Statements: continue, return, and break.
+
+4.  **Data Structures in C -- Arrays, Strings, and Structures:** One and two-dimensional arrays. String handling in C: character arrays, usage of standard library functions. Structure and Union: definition, declaration, and accessing members. Array of structures.
+
+5.  **Modular Programming with Functions:** Concept of modularity and need for functions, User-defined functions: function declaration, definition, and call. Function arguments and return values (call by value).
+
+6.  **Unix and Windows Commands:** Installation of required software. Commands for setting path variables, creating directory, changing working directory, copying files, deleting files.
 
 **TEXT BOOKS:**
 

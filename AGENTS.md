@@ -4,11 +4,7 @@ Guidance for AI coding agents (and humans) working in this repo. Read this first
 
 ## What this repository is
 
-The curriculum-design system for **REVA University, School of Computer Science & Engineering (SoCSE)** — the **2026 B.Tech scheme** (CSE, ISE, IT, AIML, AIDS, IoT, Cyber Security with Blockchain). It is a **documentation/knowledge repository**, not a software project: there is no build, no test suite, no application code. The "source" is Markdown and Word documents that define curriculum strategy, course-design rules, templates, and individual course files.
-
-## The one idea everything serves
-
-**Dual-level course design.** Each core course is delivered at **two levels within the same course** — an **awareness floor** (every student must clear it; protects placement readiness) and an **advanced ceiling** (depth for the strong; required to exceed 8 CGPA) — separated by **assessment, not by streaming students into sections**. Mastering only the awareness level must land a student *below* the 8-CGPA band by design. If a change weakens or bypasses this, it is almost certainly wrong — check `REVA_BTech_Curriculum_Strategy.md` before proceeding.
+The curriculum-design and course-design system for **REVA University, School of Computer Science & Engineering (SoCSE)** — the **2026 B.Tech scheme** (CSE, ISE, IT, AIML, AIDS, IoT and Cyber Security with Blockchain). It is a **documentation/knowledge repository**, not a software project: there is no build, no test suite, no application code. The "source" is Markdown and Word documents that define curriculum strategy, course-design rules, templates, and individual course files.
 
 ## Repository map
 
@@ -18,10 +14,9 @@ The curriculum-design system for **REVA University, School of Computer Science &
 | `CONTRIBUTING.md` | Contributor guide: architecture, setup, fork-based PR workflow | Yes |
 | `REVA_BTech_Curriculum_Strategy.md` | The strategy (the *why*). Source of truth. | Rarely — strategy decisions are institutional |
 | `Course_Designer_Guidelines_2026.md` | Design rules by course category and L-T-P | Rarely |
-| `Course_File_Template_DualLevel.md` | The Course File template faculty fill (§0–§22) | Carefully — it's a shared template |
+| `Course_File_Template.md` | The Course File template faculty fill (§0–§22) | Carefully — it's a shared template |
 | `Docs/<PROGRAM>-v1.md` | **Official per-program schemes of instruction** (AIDS, AIML, CSE, CSIT, ISE, IoT) — authoritative course code, category, L-T-P-C, contact hours, CIE/SEE. Look up a course in the **student's program** doc. | When the scheme changes |
 | `CourseFiles/` | **All completed course design documents** — one `.md` per course. Sub-folders: `Foundation/` (all-6 shared), `AI-Programs/` (AIDS+AIML±CSE), `CS-Programs/` (CSE+CSIT+ISE+IoT), and per-program folders. See `CourseFiles/README.md` for the placement rule and naming convention. | Add files here as courses are designed |
-| `Curriculum_Visual_Map.md` | Semester map for **level (A/Adv/A+Adv), prerequisites, SIG alignment** (Mermaid; AIDS-anchored, generalisable) | When the scheme changes |
 | `Course_Design_Workflow.md` | The two-path faculty workflow (Outcomes-first / Activities-first) | Yes |
 | `Course_Design_Checklist.md` | ~45-item submission gate with stable IDs + severities | Yes |
 | `Course_Design_Verification_DAA.md` | Worked verification of the DAA course file | Yes (it's an artifact) |
@@ -40,7 +35,7 @@ Two project skills under `.claude/skills/` package the core workflows. Prefer th
 
 - **Markdown** is the working format. Keep the existing voice: tables, blockquote callouts for rules, `🔴/🟠/🟡` severities, `🟢/🔵` template-section markers. Preserve the `‹…›` placeholder convention in templates.
 - **Cross-link** related docs by relative path so the set stays navigable.
-- **Do not stream students** into ability sections in any design — differentiation is by assessment (Strategy §5.4). Do not invent a local awareness/advanced mark ratio; it is a program-level decision (Guidelines §0).
+- **Do not stream students** into ability sections in any design — differentiation is by assessment (Strategy §5.4). Do not invent an unrecorded awareness/advanced split; instead define and document the course-level split in §14 and record the §14.1 calibration.
 - **Honour the keystone sections** when touching a Course File: §3 dual-level scope, §11 session plan (Merrill phase + activity + level per session), §14/§14.1 assessment + CGPA calibration, §22 Merrill strategy.
 
 ## Working with `.docx` files

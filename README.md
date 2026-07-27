@@ -14,7 +14,7 @@ This repository is not software — it is a **knowledge base + AI workflow** tha
 |---|---|
 | [`REVA_BTech_Curriculum_Strategy.md`](REVA_BTech_Curriculum_Strategy.md) | The strategy — the *why* behind dual-level design |
 | [`Course_Designer_Guidelines_2026.md`](Course_Designer_Guidelines_2026.md) | Design rules by course category and L-T-P pattern |
-| [`Course_File_Template_DualLevel.md`](Course_File_Template_DualLevel.md) | The Course File template faculty fill (§0–§22) |
+| [`Course_File_Template.md`](Course_File_Template.md) | The Course File template faculty fill (§0–§22) |
 | [`Curriculum_Visual_Map.md`](Curriculum_Visual_Map.md) | Semester map: each course's category, L-T-P-C, level, prerequisites |
 | [`Course_Design_Workflow.md`](Course_Design_Workflow.md) | The two-path faculty workflow (start from Outcomes **or** Activities) |
 | [`Course_Design_Checklist.md`](Course_Design_Checklist.md) | The ~45-item gate every finished course must pass |
@@ -68,7 +68,7 @@ You can also type `/` to see available skills. Claude reads [`AGENTS.md`](AGENTS
 2. `File → Open Folder…` → select the cloned `SoCSE-Curriculum` folder.
 3. Open the AI chat panel. With the folder open the assistant can read the template, guidelines, strategy, and `AGENTS.md`.
 4. Drive the workflow by pasting a prompt from [`Course_Design_Workflow.md`](Course_Design_Workflow.md) §2 (Outcomes-first) or §3 (Activities-first) — e.g.:
-   > "Using `Course_File_Template_DualLevel.md`, `Course_Designer_Guidelines_2026.md`, and the curriculum strategy, generate a complete Course File for *‹code – title›* (category ‹…›, L-T-P ‹…›, level ‹…›). My COs and level tags are below…"
+   > "Using `Course_File_Template.md`, `Course_Designer_Guidelines_2026.md`, and the curriculum strategy, generate a complete Course File for *‹code – title›* (category ‹…›, L-T-P ‹…›, level ‹…›). My COs and Bloom levels are below…"
 5. Attach your existing/old course document if you have one, and ask the AI to modernise it onto the template.
 
 > With the **Claude Code extension**, the `reva-course-designer` / `reva-course-reviewer` skills trigger just like in Option A. With **Copilot**, paste the workflow prompts manually instead.
@@ -80,7 +80,7 @@ You can also type `/` to see available skills. Claude reads [`AGENTS.md`](AGENTS
 1. Open Antigravity and **open the cloned `SoCSE-Curriculum` folder** as your workspace.
 2. Open the **Agent panel**. Antigravity reads [`AGENTS.md`](AGENTS.md) for repo context automatically.
 3. The `.claude/skills/` files don't auto-trigger here (they're a Claude Code convention), so **drive the process with the prompts in [`Course_Design_Workflow.md`](Course_Design_Workflow.md)** — point the agent at the template, guidelines, strategy, and map, and follow Path A or Path B.
-4. Let the agent fill [`Course_File_Template_DualLevel.md`](Course_File_Template_DualLevel.md) interactively, then review.
+4. Let the agent fill [`Course_File_Template.md`](Course_File_Template.md) interactively, then review.
 
 ---
 

@@ -31,7 +31,7 @@ The repo is layered: **strategy** sets direction, **guidelines + template** turn
                                         │ derived into
                 ┌───────────────────────▼─────────────────────┐
    RULES ─────► │ Course_Designer_Guidelines_2026.md          │  design rules by category / L-T-P
-                │ Course_File_Template_DualLevel.md           │  the document faculty fill (§0–§22)
+                │ Course_File_Template.md                     │  the document faculty fill (§0–§22)
                 └───────────────────────┬─────────────────────┘
                                         │ operated by
                 ┌───────────────────────▼─────────────────────┐
@@ -106,7 +106,7 @@ your fork (origin)            upstream (kavyareva24)
    git checkout -b course-os-sem5          # new course file
    git checkout -b guidelines-currency-fix # edit to a shared doc
    ```
-3. **Make the change.** For a new course, use the [workflow](Course_Design_Workflow.md) and fill [`Course_File_Template_DualLevel.md`](Course_File_Template_DualLevel.md). Follow the conventions in §6.
+3. **Make the change.** For a new course, use the [workflow](Course_Design_Workflow.md) and fill [`Course_File_Template.md`](Course_File_Template.md). Follow the conventions in §6.
 4. **Self-check.** For a course file, run it through the [checklist](Course_Design_Checklist.md) (the `reva-course-reviewer` skill automates this) — aim for **READY** before opening the PR.
 5. **Commit.** Use a clear imperative subject; pass multi-line messages from a file, **not** a shell here-string:
    ```bash
@@ -134,7 +134,7 @@ your fork (origin)            upstream (kavyareva24)
 - **Preserve `‹…›` placeholders** in templates; fill them in course files.
 - **Cross-link** related documents by relative path so the set stays navigable.
 - **Never stream students** into ability sections — differentiation is by assessment only (Strategy §5.4).
-- **Never invent a local awareness/advanced mark ratio** — it is a program-level decision (Guidelines §0).
+- **Do not invent an unrecorded awareness/advanced split.** Define and document the course-level split in §14 and record the §14.1 calibration; seek HoD/program approval if required.
 - **Honour the keystone sections** when editing a Course File: §3 dual-level scope, §11 session plan (Merrill phase + activity + level), §14/§14.1 assessment + CGPA calibration, §22 Merrill strategy.
 - **Do not delete or "polish" `CourseDesignWorkflow.md`** (raw planning notes) without asking the owner.
 - **Keep perishable tooling out of frozen theory syllabi** — it belongs in activities/labs/workshops (Strategy §6.1).

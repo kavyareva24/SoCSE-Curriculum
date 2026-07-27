@@ -275,9 +275,9 @@ Anti-AI & assessment-hardening measures:
 | Grade band that % falls into | Below CGPA 8 (≈ 66% → ~6.6–7 band depending on mapping) |
 | Advanced marks needed to cross 8 CGPA | Student must earn significant portion of the 34 advanced marks to reach ≥80% |
 | ✅ Calibration confirmed (awareness-only < 8 CGPA) | Yes |
-| Program-level official awareness/advanced ratio | Program-level decision — faculty must confirm with HoD/program governance. This Course File uses a 66/34 split only as a working calibration in §14; do not finalise assessment until the official ratio is confirmed. |
+| Course-level awareness/advanced split | Course-level decision — faculty must record and justify the split in §14. This Course File uses a 66/34 split only as a working calibration in §14; finalise assessment after internal approval (HoD/program governance) as required. |
 
-HoD confirmation of awareness/advanced ratio: ‹Name / HoD› — Date: ‹YYYY-MM-DD› (pending)
+HoD confirmation of course-level awareness/advanced split: ‹Name / HoD› — Date: ‹YYYY-MM-DD› (pending)
 
 ### 14.2 Question-paper blueprint 🔵
 

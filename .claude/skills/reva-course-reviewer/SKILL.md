@@ -21,7 +21,7 @@ Independently verify a completed Course File and produce an actionable, evidence
 ## Canonical references (read from the repository root)
 
 - `Course_Design_Checklist.md` — the ~45-item gate with stable IDs and severities (🔴 Blocker / 🟠 Major / 🟡 Minor). **This is the spine of the review.**
-- `Course_File_Template_DualLevel.md` — what a complete file should contain.
+- `Course_File_Template.md` — what a complete file should contain.
 - `Course_Designer_Guidelines_2026.md` — the design rules each item enforces.
 - `REVA_BTech_Curriculum_Strategy.md` — strategy alignment (dual-level, sort-late, currency, one-mainline).
 - `Docs/<PROGRAM>-v1.md` — the course's **official program scheme of instruction**. Verify code, category, L-T-P-C, contact hours, and CIE/SEE against the **student's program** (AIDS→`Docs/AIDS-v1.md`, AIML→`Docs/AIML-v1.md`, CSE→`Docs/CSE-v1.md`, CS-IT/Cyber→`Docs/CSIT-v1.md`, ISE→`Docs/ISE-v1.md`, IoT→`Docs/IoT-v1.md`) — **not AIDS by default.**

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+  <w:body>
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading1"/></w:pPr>
+      <w:r><w:t>B24CI0503 – Operating Systems</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:r><w:t>V Semester Course File</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/></w:pPr>
+      <w:r><w:t>Course Description</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:r><w:t>This course introduces the principles of modern operating systems, including how they organize computer hardware, manage processes and memory, and provide services to users and applications. Students develop both foundational understanding and analytical skills to evaluate scheduling, synchronization, deadlock handling, virtual memory, and file system design.</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/></w:pPr>
+      <w:r><w:t>Course Content</w:t></w:r>
+    </w:p>
+    <w:p><w:r><w:t>Unit 1: Operating System Principles — functions, structure, computer organization, system calls, services, and computing environments.</w:t></w:r></w:p>
+    <w:p><w:r><w:t>Unit 2: Process Management and Synchronization — process concept, scheduling, inter-process communication, threads, multithreading, semaphores, and classical synchronization problems.</w:t></w:r></w:p>
+    <w:p><w:r><w:t>Unit 3: CPU Scheduling and Deadlock — scheduling criteria, algorithms, multiprocessing, thread scheduling, deadlock prevention, avoidance, detection, and recovery.</w:t></w:r></w:p>
+    <w:p><w:r><w:t>Unit 4: Memory Management and File Systems — swapping, paging, segmentation, virtual memory, page replacement, thrashing, file concepts, access methods, sharing, and protection.</w:t></w:r></w:p>
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/></w:pPr>
+      <w:r><w:t>Course Outcomes</w:t></w:r>
+    </w:p>
+    <w:p><w:r><w:t>CO1: Explain the purpose, services, architecture, and structure of an operating system.</w:t></w:r></w:p>
+    <w:p><w:r><w:t>CO2: Describe process, thread, and inter-process communication concepts and apply synchronization mechanisms to standard problems.</w:t></w:r></w:p>
+    <w:p><w:r><w:t>CO3: Analyze CPU scheduling algorithms and deadlock prevention, avoidance, detection, and recovery strategies.</w:t></w:r></w:p>
+    <w:p><w:r><w:t>CO4: Apply memory management and virtual memory techniques to routine problems.</w:t></w:r></w:p>
+    <w:p><w:r><w:t>CO5: Evaluate file-system interface, protection, and sharing mechanisms for practical use cases.</w:t></w:r></w:p>
+    <w:p><w:r><w:t>CO6: Compare operating-system design choices for performance, reliability, and modern computing environments.</w:t></w:r></w:p>
+    <w:sectPr/>
+  </w:body>
+</w:document>
