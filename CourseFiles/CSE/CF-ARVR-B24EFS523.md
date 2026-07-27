@@ -9,7 +9,7 @@
 
 # COURSE OVERVIEW
 
-This course covers basic concepts of augmented reality and virtual reality. The course also introduces the student to the working of projects in both AR &VR. The course also helps the student to understand the current state of AR &VR. Further, this course helps the student to explore the use cases of AR & VR.
+This course covers basic concepts of augmented reality and virtual reality. The course also introduces the student to the working of projects in both AR &VR. The course also helps the student to understand the current state of AR &VR. Further, this course helps the student to explore the use cases of ARVR
 
 # COURSE OBJECTIVE (S)
 
