@@ -138,7 +138,16 @@ status: skeleton
 
 | S.No | Planned date | Exec. date | Unit / topic | Merrill phase 🔵 | Activity 🔵 | % compl. | Level (A/Adv) 🔵 | CO 🔵 | Remarks |
 |---|---|---|---|---|---|---|---|---|---|
-| 01 | ‹…› | | ‹Unit 1 — topic› | ‹…› | ‹…› | ‹…%› | A | CO1 | |
+| 01 | ‹Week 1› | | Unit 1 — Importance of a professional portfolio | Problem-centred / Activation | Icebreaker: peer group discussion on portfolio purpose; personal career aspiration mapping | 6% | A | CO1 | |
+| 02 | ‹Week 1› | | Unit 1 — Self-audit and strengths inventory | Activation / Demonstration | Create a skills inventory and evidence checklist using guided template | 12% | A | CO1 | |
+| 03 | ‹Week 2› | | Unit 2 — Portfolio media types and tool landscape | Demonstration | Demo of portfolio platforms (LinkedIn, GitHub, Behance, Canva) and evaluation of sample portfolios | 18% | A | CO2 | |
+| 04 | ‹Week 2› | | Unit 2 — Digital portfolio structure | Application | Build a personal portfolio outline in pairs; select 3 representative projects and supporting artifacts | 25% | A | CO2 | |
+| 05 | ‹Week 3› | | Unit 3 — Project storytelling and writing | Application | Draft project descriptions, learning outcomes, and impact statements for chosen work | 35% | Adv | CO3 | |
+| 06 | ‹Week 3› | | Unit 3 — Visual design and branding | Demonstration / Application | Use a design template to create a portfolio page or one-page PDF showcasing skills, projects and contact details | 45% | Adv | CO3 | |
+| 07 | ‹Week 4› | | Unit 4 — Peer review and feedback | Integration | Conduct peer review using a rubric; identify strengths, gaps, and revision suggestions | 55% | Adv | CO4 | |
+| 08 | ‹Week 4› | | Unit 4 — Finalisation and presentation | Integration | Present portfolio summary to the class; reflect on improvements and next steps | 65% | Adv | CO4 | |
+| 09 | ‹Week 5› | | Unit 4 — Advanced portfolio enhancement | Application / Integration | Add one advanced feature: personal brand statement, career narrative, or interactive project link | 75% | Adv | CO5 | |
+| 10 | ‹Week 5› | | Unit 4 — Continuous updating plan | Integration | Create a six-month portfolio maintenance plan and checklist for future evidence capture | 85% | Adv | CO5 | |
 
 ---
 
